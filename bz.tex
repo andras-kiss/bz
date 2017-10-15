@@ -57,7 +57,7 @@ To start the reaction, the method that is described in \cite{winfree} was used.
 Solution ''A,, was prepared by adding 2 ml of concentrated sulfuric acid and 5 g sodium bromate to 67 ml water.
 Solution ,,B'' was 1 g malonic acid dissolved in 10 ml of water, solution ,,C'' was 1 g sodium bromate dissolved in 10 ml of water.
 2 ml of ,,A'', 0.333 ml of ,,B'' and 0.166 ml ,,C'' was added to a small Petri dish ($d = 4 \,$cm).
-After the yellow color of bromine vanished, 0.333 ml of 25 mM phenantroline ferrous sulfate was added, and the reaction mixture was stirred by a glass rod for a few seconds.
+After the yellow color of bromine vanished, 0.333 ml of 25 mM phenantroline ferrous sulfate was added, and the reaction mixture was stirred with a glass rod for a few seconds.
 At this stage, the spontaneous formation of spatial patterns started.
 
 \paragraph{Scanning Electrochemical Microscopy} A double wall Ag/AgCl/3 M KCl/0.1 M CH$_3$COOLi reference electrode was placed inside the reaction mixture, close to the edge of the Petri dish.
@@ -75,27 +75,27 @@ Altogether 6 back and forth cycles were performed.
 A single $\approx$ 1 cm long fiber was soldered into the hole of a round female pin header that was purchased from a local electronics store. 
 The other end of the header was soldered to a d = 1 mm isolated copper wire to provide electrical connectivity and mechanical strength. 
 
-\paragraph{Optical obseravtion}
+\paragraph{Optical observation}
 The reaction was filmed with the camera of a Nexus 5 cell phone in 4k resolution.
 The space-time plot was prepared using Blender 2.78 software by grabbing linear, 1 pixel high images from every 30th frame of the video (1 s interval).
 The image sequence was assambled by stacking the grabs vertically using Imagemagick 1.3.20.
-The overlayed optical-electrochemical plot was created by Gnuplot 4.6.6.
+The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 
-\begin{table}
-                \caption{Initial concentrations of the reactants for the reaction.}
-                \label{table:recipe}
-                \centering
-                \begin{tabular}{r c}
-                        Reactant & Concentration \\
-                        \hline
-                        1 & 2 \\
-                \end{tabular}
-\end{table}
+%\begin{table}
+% \caption{Initial concentrations of the reactants for the reaction.}
+% \label{table:recipe}
+% \centering
+% \begin{tabular}{r c}
+%  Reactant & Concentration \\
+%  \hline
+%  1 & 2 \\
+% \end{tabular}
+%\end{table}
 
 
 \section{Results and discussion}
 
-\def\s{0.5}
+\def\s{0.6}
 \begin{figure}
 \centering
 % trim = top left bottom right
@@ -112,7 +112,7 @@ The overlayed optical-electrochemical plot was created by Gnuplot 4.6.6.
 %\label{fig:2d}
 %\end{figure}
 
-\def\s{0.15}
+\def\s{0.5}
 \def\left{70}
 \def\bottom{120}
 \def\right{50}
@@ -122,18 +122,35 @@ The overlayed optical-electrochemical plot was created by Gnuplot 4.6.6.
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{0.png}};
     \draw (3.8, 1) node {a};
+    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 \end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{right.png}};
+%    \draw (3.8, 1) node {a};
+%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%    \draw [purple] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1.png}};
     \draw (3.8, 1) node {b};
+    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+
 \end{tikzpicture}
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2.png}};
     \draw (3.8, 1) node {c};
+    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+
 \end{tikzpicture}
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{3.png}};
     \draw (3.8, 1) node {d};
+    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+
 \end{tikzpicture}
 \caption{}
 \label{fig:2d}
