@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  16 OCT 2017 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  16 OCT 2017 00:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1334,10 +1334,10 @@ Package pdftex.def Info: microelectrode.jpg used on input line 109.
 
 [2 <./microelectrode.jpg>]
 Package epstopdf Info: Source file: <spacetime.eps>
-(epstopdf)                    date: 2017-10-16 00:07:25
+(epstopdf)                    date: 2017-10-16 00:12:23
 (epstopdf)                    size: 11607142 bytes
 (epstopdf)             Output file: <spacetime-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-16 00:07:28
+(epstopdf)                    date: 2017-10-16 00:12:26
 (epstopdf)                    size: 422939 bytes
 (epstopdf)             Command: <epstopdf --outfile=spacetime-eps-converted-to.
 pdf spacetime.eps>
@@ -1481,7 +1481,7 @@ sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on bz.pdf (4 pages, 5237903 bytes).
+Output written on bz.pdf (4 pages, 5237915 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
