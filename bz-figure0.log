@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  15 OCT 2017 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  15 OCT 2017 23:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -73,7 +73,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@enLab=\toks16
 \@sep=\skip43
 \@@sep=\skip44
-(./bz-figure0.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -105,6 +105,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen115
 \Gm@layoutvoffset=\dimen116
 \Gm@dimlist=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
+\mathindent=\dimen117
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
 )) (/usr/share/texlive/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -444,8 +453,8 @@ Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/gene
 ric/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks20
-\pgfutil@tempdima=\dimen117
-\pgfutil@tempdimb=\dimen118
+\pgfutil@tempdima=\dimen118
+\pgfutil@tempdimb=\dimen119
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -468,14 +477,14 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ex
 \pgfkeys@tmptoks=\toks23
 ))
-\pgf@x=\dimen119
-\pgf@y=\dimen120
-\pgf@xa=\dimen121
-\pgf@ya=\dimen122
-\pgf@xb=\dimen123
-\pgf@yb=\dimen124
-\pgf@xc=\dimen125
-\pgf@yc=\dimen126
+\pgf@x=\dimen120
+\pgf@y=\dimen121
+\pgf@xa=\dimen122
+\pgf@ya=\dimen123
+\pgf@xb=\dimen124
+\pgf@yb=\dimen125
+\pgf@xc=\dimen126
+\pgf@yc=\dimen127
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
 \c@pgf@counta=\count98
@@ -526,7 +535,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texl
 ive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/t
 exmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen127
+\pgfmath@dimen=\dimen128
 \pgfmath@count=\count104
 \pgfmath@box=\box31
 \pgfmath@toks=\toks27
@@ -556,32 +565,32 @@ hfloat.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen128
-\pgf@picmaxx=\dimen129
-\pgf@picminy=\dimen130
-\pgf@picmaxy=\dimen131
-\pgf@pathminx=\dimen132
-\pgf@pathmaxx=\dimen133
-\pgf@pathminy=\dimen134
-\pgf@pathmaxy=\dimen135
-\pgf@xx=\dimen136
-\pgf@xy=\dimen137
-\pgf@yx=\dimen138
-\pgf@yy=\dimen139
-\pgf@zx=\dimen140
-\pgf@zy=\dimen141
+\pgf@picminx=\dimen129
+\pgf@picmaxx=\dimen130
+\pgf@picminy=\dimen131
+\pgf@picmaxy=\dimen132
+\pgf@pathminx=\dimen133
+\pgf@pathmaxx=\dimen134
+\pgf@pathminy=\dimen135
+\pgf@pathmaxy=\dimen136
+\pgf@xx=\dimen137
+\pgf@xy=\dimen138
+\pgf@yx=\dimen139
+\pgf@yy=\dimen140
+\pgf@zx=\dimen141
+\pgf@zy=\dimen142
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen142
-\pgf@path@lasty=\dimen143
+\pgf@path@lastx=\dimen143
+\pgf@path@lasty=\dimen144
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen144
-\pgf@shorten@start@additional=\dimen145
+\pgf@shorten@end@additional=\dimen145
+\pgf@shorten@start@additional=\dimen146
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -594,14 +603,14 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen146
+\pgflinewidth=\dimen147
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen147
-\pgf@pt@y=\dimen148
-\pgf@pt@temp=\dimen149
+\pgf@pt@x=\dimen148
+\pgf@pt@y=\dimen149
+\pgf@pt@temp=\dimen150
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -617,11 +626,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen150
+\pgfarrowsep=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen151
+\pgf@max=\dimen152
 \pgf@sys@shading@range@num=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -653,8 +662,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen152
-\pgf@nodesepend=\dimen153
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -667,8 +676,8 @@ xmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf
 lities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen154
-\pgffor@skip=\dimen155
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 ))
@@ -679,14 +688,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count108
-\pgfplotmarksize=\dimen156
+\pgfplotmarksize=\dimen157
 )
-\tikz@lastx=\dimen157
-\tikz@lasty=\dimen158
-\tikz@lastxsaved=\dimen159
-\tikz@lastysaved=\dimen160
-\tikzleveldistance=\dimen161
-\tikzsiblingdistance=\dimen162
+\tikz@lastx=\dimen158
+\tikz@lasty=\dimen159
+\tikz@lastxsaved=\dimen160
+\tikz@lastysaved=\dimen161
+\tikzleveldistance=\dimen162
+\tikzsiblingdistance=\dimen163
 \tikz@figbox=\box37
 \tikz@figbox@bg=\box38
 \tikz@tempbox=\box39
@@ -712,7 +721,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \t@pgfplots@toka=\toks32
 \t@pgfplots@tokb=\toks33
 \t@pgfplots@tokc=\toks34
-\pgfplots@tmpa=\dimen163
+\pgfplots@tmpa=\dimen164
 \c@pgfplots@coordindex=\count117
 \c@pgfplots@scanlineindex=\count118
 
@@ -785,14 +794,14 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen164
-\pgfdecoratedremainingdistance=\dimen165
-\pgfdecoratedinputsegmentcompleteddistance=\dimen166
-\pgfdecoratedinputsegmentremainingdistance=\dimen167
-\pgf@decorate@distancetomove=\dimen168
+\pgfdecoratedcompleteddistance=\dimen165
+\pgfdecoratedremainingdistance=\dimen166
+\pgfdecoratedinputsegmentcompleteddistance=\dimen167
+\pgfdecoratedinputsegmentremainingdistance=\dimen168
+\pgf@decorate@distancetomove=\dimen169
 \pgf@decorate@repeatstate=\count123
-\pgfdecorationsegmentamplitude=\dimen169
-\pgfdecorationsegmentlength=\dimen170
+\pgfdecorationsegmentamplitude=\dimen170
+\pgfdecorationsegmentlength=\dimen171
 )
 \tikz@lib@dec@box=\box41
 )
@@ -805,12 +814,12 @@ zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
 \pgfplots@numplots=\count124
-\pgfplots@xmin@reg=\dimen171
-\pgfplots@xmax@reg=\dimen172
-\pgfplots@ymin@reg=\dimen173
-\pgfplots@ymax@reg=\dimen174
-\pgfplots@zmin@reg=\dimen175
-\pgfplots@zmax@reg=\dimen176
+\pgfplots@xmin@reg=\dimen172
+\pgfplots@xmax@reg=\dimen173
+\pgfplots@ymin@reg=\dimen174
+\pgfplots@ymax@reg=\dimen175
+\pgfplots@zmin@reg=\dimen176
+\pgfplots@zmax@reg=\dimen177
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -848,30 +857,30 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pstFP@times=\count134
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks38
-\pgfutil@tempdima=\dimen177
-\pgfutil@tempdimb=\dimen178
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex (/usr/
 share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen179
-\pgffor@skip=\dimen180
+\pgffor@iter=\dimen180
+\pgffor@skip=\dimen181
 \pgffor@stack=\toks39
 \pgffor@toks=\toks40
 )
 \psLoopIndex=\count135
 `PSTricks' v2.71  <2016/12/23> (tvz)
-\pst@dima=\dimen181
-\pst@dimb=\dimen182
-\pst@dimc=\dimen183
-\pst@dimd=\dimen184
-\pst@dimg=\dimen185
-\pst@dimh=\dimen186
-\pst@dimm=\dimen187
-\pst@dimn=\dimen188
-\pst@dimo=\dimen189
-\pst@dimp=\dimen190
+\pst@dima=\dimen182
+\pst@dimb=\dimen183
+\pst@dimc=\dimen184
+\pst@dimd=\dimen185
+\pst@dimg=\dimen186
+\pst@dimh=\dimen187
+\pst@dimm=\dimen188
+\pst@dimn=\dimen189
+\pst@dimo=\dimen190
+\pst@dimp=\dimen191
 \pst@hbox=\box42
 \pst@ibox=\box43
 \pst@boxg=\box44
@@ -888,24 +897,24 @@ share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \@zero=\count146
 \pst@toks=\toks41
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
-\psunit=\dimen191
-\psxunit=\dimen192
-\psyunit=\dimen193
+\psunit=\dimen192
+\psxunit=\dimen193
+\psyunit=\dimen194
 \pst@C@@rType=\count147
-\pslinewidth=\dimen194
-\psk@startLW=\dimen195
-\psk@endLW=\dimen196
+\pslinewidth=\dimen195
+\psk@startLW=\dimen196
+\psk@endLW=\dimen197
 \pst@customdefs=\toks42
-\pslinearc=\dimen197
-\pst@symbolStep=\dimen198
-\pst@symbolWidth=\dimen199
-\pst@symbolLinewidth=\dimen256
+\pslinearc=\dimen198
+\pst@symbolStep=\dimen199
+\pst@symbolWidth=\dimen256
+\pst@symbolLinewidth=\dimen257
 \everypsbox=\toks43
-\psframesep=\dimen257
-\pslabelsep=\dimen258
-\sh@wgridXunit=\dimen259
-\sh@wgridYunit=\dimen260
-\pst@shift=\dimen261
+\psframesep=\dimen258
+\pslabelsep=\dimen259
+\sh@wgridXunit=\dimen260
+\sh@wgridYunit=\dimen261
+\pst@shift=\dimen262
 )
 File: pstricks.tex 2016/12/23 v2.71 `PSTricks' (tvz,hv)
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
@@ -939,41 +948,41 @@ tex (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex  v1.39, 20
 \pst@argcnt=\count155
 ) (/usr/share/texlive/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex `pst-arrow
 ' v0.01, 2016/09/01 (dr,hv)
-\pshooklength=\dimen262
-\pshookwidth=\dimen263
+\pshooklength=\dimen263
+\pshookwidth=\dimen264
 ) (/usr/share/texlive/texmf-dist/tex/generic/pst-3d/pst-3d.tex `PST-3d' v1.11, 
 2010/02/14 (tvz)) (/usr/share/texlive/texmf-dist/tex/generic/pst-math/pst-math.
 tex `pst-math' v0.63 , (CJ,hv)) `pstricks-add' v3.82, 2016/09/01 (dr,hv)
-\psparallelogramsep=\dimen264
+\psparallelogramsep=\dimen265
 \pst@cntC=\count156
-\chart@ColorIndex=\dimen265
-\chart@ColorStep=\dimen266
-\pst@chartHeight=\dimen267
-\pst@chartStackDepth=\dimen268
-\pst@chartStackWidth=\dimen269
+\chart@ColorIndex=\dimen266
+\chart@ColorStep=\dimen267
+\pst@chartHeight=\dimen268
+\pst@chartStackDepth=\dimen269
+\pst@chartStackWidth=\dimen270
 \chart@Toggle=\count157
 \psVectorCtr=\count158
 )  v1.76, 2017/01/18 (tvz,hv)
-\pstRadUnit=\dimen270
-\pstRadUnitInv=\dimen271
+\pstRadUnit=\dimen271
+\pstRadUnitInv=\dimen272
 \pst@linecnt=\count159
 \RCD@file=\read2
-\psxlabelsep=\dimen272
-\psylabelsep=\dimen273
-\psk@subticksize=\dimen274
-\pst@xticksizeA=\dimen275
-\pst@xticksizeB=\dimen276
-\pst@xticksizeC=\dimen277
-\pst@yticksizeA=\dimen278
-\pst@yticksizeB=\dimen279
-\pst@yticksizeC=\dimen280
+\psxlabelsep=\dimen273
+\psylabelsep=\dimen274
+\psk@subticksize=\dimen275
+\pst@xticksizeA=\dimen276
+\pst@xticksizeB=\dimen277
+\pst@xticksizeC=\dimen278
+\pst@yticksizeA=\dimen279
+\pst@yticksizeB=\dimen280
+\pst@yticksizeC=\dimen281
 \@digitcounter=\count160
-\psk@llx=\dimen281
-\psk@lly=\dimen282
-\psk@urx=\dimen283
-\psk@ury=\dimen284
-\pst@xunit=\dimen285
-\pst@yunit=\dimen286
+\psk@llx=\dimen282
+\psk@lly=\dimen283
+\psk@urx=\dimen284
+\psk@ury=\dimen285
+\pst@xunit=\dimen286
+\pst@yunit=\dimen287
 )
 File: pst-plot.tex 2017/01/18 1.76 `pst-plot' (tvz,hv)
 )
@@ -1026,10 +1035,10 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks45
-\ex@=\dimen287
+\ex@=\dimen288
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen288
+\pmbraise@=\dimen289
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -1045,7 +1054,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box46
 \strutbox@=\box47
-\big@size=\dimen289
+\big@size=\dimen290
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count166
@@ -1058,12 +1067,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \column@=\count171
 \maxfields@=\count172
 \andhelp@=\toks47
-\eqnshift@=\dimen290
-\alignsep@=\dimen291
-\tagshift@=\dimen292
-\tagwidth@=\dimen293
-\totwidth@=\dimen294
-\lineht@=\dimen295
+\eqnshift@=\dimen291
+\alignsep@=\dimen292
+\tagshift@=\dimen293
+\tagwidth@=\dimen294
+\totwidth@=\dimen295
+\lineht@=\dimen296
 \@envbody=\toks48
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -1112,13 +1121,13 @@ LaTeX Font Info:    ... okay on input line 18.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count174
-\scratchdimen=\dimen296
+\scratchdimen=\dimen297
 \scratchbox=\box50
 \nofMPsegments=\count175
 \nofMParguments=\count176
 \everyMPshowfont=\toks52
 \MPscratchCnt=\count177
-\MPscratchDim=\dimen297
+\MPscratchDim=\dimen298
 \MPnumerator=\count178
 \makeMPintoPDFobject=\count179
 \everyMPtoPDFconversion=\toks53
@@ -1171,14 +1180,14 @@ e
 * \headsep=12.0pt
 * \topskip=10.0pt
 * \footskip=18.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=24.0pt
 * \skip\footins=24.0pt plus 2.0pt minus 12.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -1204,49 +1213,59 @@ Package gensymb Warning: Not defining \micro.
 
 \emailauthor{akiss@gamma.ttk.pte.hu}{András Kiss\corref {cor}}
 \emailauthor{g-nagy@gamma.ttk.pte.hu}{Géza Nagy}
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package natbib Warning: Citation `belousov' on page 1 undefined on input line 5
-3.
+4.
 
 
-Package natbib Warning: Citation `fkn1' on page 1 undefined on input line 55.
+Package natbib Warning: Citation `fkn1' on page 1 undefined on input line 57.
 
 
-Package natbib Warning: Citation `fkn2' on page 1 undefined on input line 55.
+Package natbib Warning: Citation `fkn2' on page 1 undefined on input line 57.
 
 
-Package natbib Warning: Citation `hess2' on page 1 undefined on input line 60.
+Package natbib Warning: Citation `hess2' on page 1 undefined on input line 63.
 
 
-Package natbib Warning: Citation `hess3' on page 1 undefined on input line 60.
+Package natbib Warning: Citation `hess3' on page 1 undefined on input line 63.
 
 
-Package natbib Warning: Citation `hess2' on page 1 undefined on input line 65.
+Package natbib Warning: Citation `hess2' on page 1 undefined on input line 68.
 
 
-Package natbib Warning: Citation `hess3' on page 1 undefined on input line 65.
+Package natbib Warning: Citation `hess3' on page 1 undefined on input line 68.
 
 
-Package natbib Warning: Citation `winfree' on page 2 undefined on input line 76
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package natbib Warning: Citation `winfree' on page 2 undefined on input line 79
 .
 
-The command '\includegraphics [trim = 10mm 65mm 0mm 30mm, clip, width=\s \textw
+
+Underfull \hbox (badness 1354) in paragraph at lines 87--101
+ \T1/aer/m/it/10 Scan-ning Elec-tro-chem-i-cal Mi-croscopy.[] \T1/aer/m/n/10 A 
+dou-ble
+ []
+
+The command '\includegraphics [trim = 15mm 65mm 0mm 30mm, clip, width=\s \textw
 idth , angle=-90]{spacetime.eps}' has been optimized away. Use '/tikz/external/
 optimize=false' to disable this.
 \openout5 = `bz-figure0.dpth'.
 
-PGFPlots: reading {17101308_st_lines.txt}
+PGFPlots: reading {17101308_st_lines_back.txt}
 \tikzexternal@dep@file=\write6
 \openout6 = `bz-figure0.dep'.
 
+PGFPlots: reading {17101308_st_lines_there.txt}
 [2
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1270,30 +1289,36 @@ isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 232--233
+[]\T1/aer/m/n/8 Nagy-Ungv�rai, Zsuzsanna, and Benno Hess. "Con-
+ []
+
+
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 221.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 28087 strings out of 493013
- 671791 string characters out of 6135682
- 950072 words of memory out of 5000000
- 31064 multiletter control sequences out of 15000+600000
- 26562 words of font info for 51 fonts, out of 8000000 for 9000
+ 28095 strings out of 493013
+ 672099 string characters out of 6135682
+ 919581 words of memory out of 5000000
+ 31066 multiletter control sequences out of 15000+600000
+ 28725 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,13n,96p,751b,2103s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,96p,751b,2041s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on bz-figure0.pdf (1 page, 35998 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on bz-figure0.pdf (1 page, 23614 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

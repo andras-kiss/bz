@@ -35,11 +35,12 @@ set xlabel font ",15"
 set ylabel font ",15"
 set cblabel font ",15"
 set cbtics font ",15"
-set xlabel "x / {/Symbol m}m"
+set xlabel "x / mm"
 set ylabel "time / s"
 set cblabel "redox potential vs. Ag/AgCl / V"
 #set palette model RGB rgbformulae 7,5,15
 set palette rgb 33,13,10
 set cbrange [0.85:1]
-splot "17101308_st.txt" using 1:2:3 with points palette pointsize 1.2 pointtype 5 notitle
+set xrange [0:1] 
+splot "17101308_st.txt" using ($1/10000):2:3 with points palette pointsize 1.2 pointtype 5 notitle
 unset multiplot

@@ -19,7 +19,7 @@
 
 \begin{frontmatter}
 
-\title{Potentiometric Scanning Electrochemical Microscopic Mapping of the Belousov-Zhabotinsky Oscillating Reaction}
+\title{Potentiometric Scanning Electrochemical Microscopic Mapping of the Distributed Belousov-Zhabotinsky Oscillating Reaction}
 \cortext[cor]{Corresponding author}
 \author[akiss]{András Kiss\corref{cor}}
 \address[akiss, gnagy]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
@@ -129,27 +129,36 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 
 \def\s{0.5}
 \begin{figure}
-\centering
 % trim = top left bottom right
-\includegraphics[trim = 10mm 65mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
 
+\centering
+\flushleft{\textbf{\large{A}}}
+\includegraphics[trim = 15mm 65mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
+
+%\vspace{1cm}
+
+\flushleft{\textbf{\large{B}}}
 \begin{tikzpicture}
-  \begin{axis}[width=7cm, height=5cm]
-    \addplot3[color=black, surf, very thick,xlabel={x / $\upmu$m},ylabel={time / s},zlabel={E / V}] table {17101308_st_lines.txt};
-    %\addplot3[color=black, surf, very thick] table {17101308_st_lines.txt};
+  \begin{axis}[width=7cm, height=5cm, xlabel={x / mm},ylabel={time / s},zlabel={E / V}]
+    %\addplot3[surf, x filter/.code{\pgfmathparse{\pgfmathresults/10000}}] table {17101308_st_lines.txt};
+    \addplot3[very thick, color=red] table {17101308_st_lines_back.txt};
+    \addplot3[very thick, color=blue] table {17101308_st_lines_there.txt};
   \end{axis}
 \end{tikzpicture}
+
+
 \caption{Incomplete.}
 \label{fig:spatiotemporal}
 \end{figure}
 
-\begin{figure}
-\centering
-% trim = left bottom right top
-\includegraphics[trim = 200mm 20mm 150mm 150mm, clip, width=0.3\textwidth]{microelectrode.jpg}
-\caption{}
-\label{fig:2d}
-\end{figure}
+
+%\begin{figure}
+%\centering
+%% trim = left bottom right top
+%\includegraphics[trim = 200mm 20mm 150mm 150mm, clip, width=0.3\textwidth]{microelectrode.jpg}
+%\caption{}
+%\label{fig:2d}
+%\end{figure}
 
 \def\s{0.5}
 \def\left{70}
@@ -160,7 +169,7 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 \centering
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{0.png}};
-    \draw (3.8, 1) node {a};
+    \draw (3.8, 1) node {\textbf{a}};
     \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
     \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 \end{tikzpicture}
@@ -172,21 +181,21 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 %\end{tikzpicture}
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1.png}};
-    \draw (3.8, 1) node {b};
+    \draw (3.8, 1) node {\textbf{b}};
     \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
     \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 
 \end{tikzpicture}
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2.png}};
-    \draw (3.8, 1) node {c};
+    \draw (3.8, 1) node {\textbf{c}};
     \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
     \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 
 \end{tikzpicture}
 \begin{tikzpicture}
     \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{3.png}};
-    \draw (3.8, 1) node {d};
+    \draw (3.8, 1) node {\textbf{d}};
     \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
     \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 
