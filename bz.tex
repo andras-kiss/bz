@@ -32,7 +32,7 @@
 \begin{abstract}
 
 Patterns emerging in a distributed Belousov-Zhabotinsky reaction are usually studied with optical methods.
-However, these methods provide only approximate information about the oxidation state of an indicator, and they cannot be applied when there is no indicator dye.
+However, these methods provide only approximate information about the oxidation state of an indicator, and they cannot be applied when there is no indicator dye or other colored component whose concentration is oscillating.
 To gather additional information about the processes involved in the reaction, electrochemical methods can be used.
 %Using the appropriate electrodes, changes in bromide ion activity, pH and redox potential can be monitored.
 Unfortunately, these methods will influence a distributed system, since they require electrodes to be placed inside the reaction mixture.
@@ -103,6 +103,16 @@ The X-Y plane of the SECM instrument was adjusted using a precision spirit level
 A small portion of a single $\approx$ 1 cm long fiber was soldered into the hole of a round female pin header that was purchased from a local electronics store. 
 The other end of the header was soldered to a $d = $ 1 mm isolated copper wire to provide electrical connectivity and mechanical strength. 
 
+\begin{figure}
+\centering
+% trim = left bottom right top
+\includegraphics[trim = 200mm 100mm 150mm 200mm, clip, width=0.3\textwidth]{microelectrode.jpg}
+\caption{The carbon fiber microelectrode soldered into the hole of a round female pin header. The diameter of the carbon fiber is 7 $\upmu$m. Since only a less than 1 $\upmu$m portion of the carbon fiber is submersed into the solution, insulation wasn't necessary.}
+\label{fig:microelectrode}
+\end{figure}
+
+
+
 \paragraph{Optical observation}
 The reaction was filmed with the camera of an LG Nexus 5 cell phone positioned 10 cm from the scanline at a 45 degree angle, with the frame parallel to the scanline.
 The space-time plot was prepared using the Blender 2.78 video editing software by grabbing linear, 1 pixel high images from every 30th frame of the video (1 s interval).
@@ -134,7 +144,6 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 \centering
 \flushleft{\textbf{\large{A}}}
 \includegraphics[trim = 15mm 65mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
-
 %\vspace{1cm}
 
 \flushleft{\textbf{\large{B}}}
@@ -145,20 +154,14 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
     \addplot3[very thick, color=blue] table {17101308_st_lines_there.txt};
   \end{axis}
 \end{tikzpicture}
-
-
-\caption{Incomplete.}
+\caption{(A) Electrochemical space-time plot overlayed on top of an optical one.
+The potential of the carbon fiber microelectrode is shown as a function of spatiotemporal coordinates.
+(a)--(b) Instances in time at (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+(B) Space-time plot of the two scanlines between (b) and (c).}
 \label{fig:spatiotemporal}
 \end{figure}
 
 
-%\begin{figure}
-%\centering
-%% trim = left bottom right top
-%\includegraphics[trim = 200mm 20mm 150mm 150mm, clip, width=0.3\textwidth]{microelectrode.jpg}
-%\caption{}
-%\label{fig:2d}
-%\end{figure}
 
 \def\s{0.5}
 \def\left{70}
@@ -200,7 +203,14 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
     \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 
 \end{tikzpicture}
-\caption{Incomplete.}
+\caption{Frame grabs from the video that was recorded during the experiment.
+(a)--(b): same instances in time as in Fig. \ref{fig:spatiotemporal}.
+(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+Green dot: starting and finishing position of the scan cycle.
+Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
+In the images, the pin header that was holding the carbon fiber is visible above the green dot.
+Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
+On the left side the end of the double wall reference electrode is visible.}
 \label{fig:grabs}
 \end{figure}
 
