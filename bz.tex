@@ -22,11 +22,12 @@
 \title{Potentiometric Scanning Electrochemical Microscopic Mapping of the Distributed Belousov-Zhabotinsky Oscillating Reaction}
 \cortext[cor]{Corresponding author}
 \author[akiss]{András Kiss\corref{cor}}
-\address[akiss, gnagy]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
-%\address[akiss, gnagy]{János Szentágothai Research Centre, University of Pécs, 7624 Pécs, Ifjúság Útja 20, Hungary}
 \ead{akiss@gamma.ttk.pte.hu}
+\author[szszilard]{Szili Szilárd}
+\address[akiss, gnagy, szszilard]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
+%\address[akiss, gnagy]{János Szentágothai Research Centre, University of Pécs, 7624 Pécs, Ifjúság Útja 20, Hungary}
 \author[gnagy]{Géza Nagy}
-\ead{g-nagy@gamma.ttk.pte.hu}
+%\ead{g-nagy@gamma.ttk.pte.hu}
 
 
 \begin{abstract}
@@ -143,20 +144,23 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 
 \centering
 \flushleft{\textbf{\large{A}}}
-\includegraphics[trim = 15mm 65mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
+\includegraphics[trim = 15mm 60mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
 %\vspace{1cm}
 
 \flushleft{\textbf{\large{B}}}
 \begin{tikzpicture}
-  \begin{axis}[width=7cm, height=5cm, xlabel={x / mm},ylabel={time / s},zlabel={E / V}]
+  \begin{axis}[width=7cm, height=5cm, xlabel={x / cm},ylabel={time / s},zlabel={E / V}, zmin=0.9]
     %\addplot3[surf, x filter/.code{\pgfmathparse{\pgfmathresults/10000}}] table {17101308_st_lines.txt};
     \addplot3[very thick, color=red] table {17101308_st_lines_back.txt};
+    %\addplot3[thick, color=blue] table {17101308_st_lines_there_zerox.txt};
+    %\addplot3[thick, color=red] table {17101308_st_lines_back_zerox.txt};
+    %\addplot3[color=blue] table {17101308_st_lines_there_base.txt};
     \addplot3[very thick, color=blue] table {17101308_st_lines_there.txt};
   \end{axis}
 \end{tikzpicture}
 \caption{(A) Electrochemical space-time plot overlayed on top of the corresponding optical one.
 The potential of the carbon fiber microelectrode is shown as a function of spatiotemporal coordinates.
-(a)--(b) Instances in time at (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+(a)--(d) Instances in time at (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
 (B) Space-time plot of the two scanlines between (b) and (c).
 Blue line: forward scan, red line: backwards scan.}
 \label{fig:spatiotemporal}
@@ -205,7 +209,7 @@ Blue line: forward scan, red line: backwards scan.}
 
 \end{tikzpicture}
 \caption{Frame grabs from the video that was recorded during the experiment.
-(a)--(b): same instances in time as in Fig. \ref{fig:spatiotemporal}.
+(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
 (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
 Green dot: starting and finishing position of the scan cycle.
 Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.

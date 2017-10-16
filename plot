@@ -29,18 +29,21 @@ set border
 set tics out nomirror scale 2
 #set mxtics 5
 set key left
-set xtics font "Helvetica, 15"
-set ytics font "Helvetica, 15"
-set xlabel font ",15"
-set ylabel font ",15"
-set cblabel font ",15"
-set cbtics font ",15"
-set xlabel "x / mm"
+set xtics font "Helvetica, 18"
+set ytics font "Helvetica, 18"
+set xlabel font ",18"
+set ylabel font ",18"
+set cblabel font ",18"
+set cbtics font ",18"
+set xlabel "x / cm"
 set ylabel "time / s"
 set cblabel "redox potential vs. Ag/AgCl / V"
 #set palette model RGB rgbformulae 7,5,15
 set palette rgb 33,13,10
 set cbrange [0.85:1]
-set xrange [0:1] 
+set xrange [0:1]
+set cblabel offset 1,0
+set ylabel offset -1,0
+set xlabel offset 0,-0.5 
 splot "17101308_st.txt" using ($1/10000):2:3 with points palette pointsize 1.2 pointtype 5 notitle
 unset multiplot
