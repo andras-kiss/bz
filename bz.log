@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  9 DEC 2017 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  22 DEC 2017 16:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1326,33 +1326,48 @@ Underfull \hbox (badness 1354) in paragraph at lines 88--102
 dou-ble
  []
 
-<microelectrode.jpg, id=20, 3298.3225pt x 2441.12pt>
+Package epstopdf Info: Source file: <setup.eps>
+(epstopdf)                    date: 2017-12-22 15:36:51
+(epstopdf)                    size: 3368719 bytes
+(epstopdf)             Output file: <setup-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-12-22 15:37:01
+(epstopdf)                    size: 358857 bytes
+(epstopdf)             Command: <epstopdf --outfile=setup-eps-converted-to.pdf 
+setup.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+<setup-eps-converted-to.pdf, id=20, 420.57124pt x 299.1175pt>
+File: setup-eps-converted-to.pdf Graphic file (type pdf)
+
+<use setup-eps-converted-to.pdf>
+Package pdftex.def Info: setup-eps-converted-to.pdf used on input line 114.
+(pdftex.def)             Requested size: 210.59857pt x 149.78201pt.
+
+<microelectrode.jpg, id=21, 3298.3225pt x 2441.12pt>
 File: microelectrode.jpg Graphic file (type jpg)
  <use microelectrode.jpg>
-Package pdftex.def Info: microelectrode.jpg used on input line 110.
+Package pdftex.def Info: microelectrode.jpg used on input line 120.
 (pdftex.def)             Requested size: 140.40143pt x 96.79845pt.
-
-[2 <./microelectrode.jpg>]
 Package epstopdf Info: Source file: <spacetime.eps>
-(epstopdf)                    date: 2017-12-09 12:21:54
+(epstopdf)                    date: 2017-12-22 16:14:36
 (epstopdf)                    size: 11607141 bytes
 (epstopdf)             Output file: <spacetime-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-09 12:21:58
+(epstopdf)                    date: 2017-12-22 16:14:39
 (epstopdf)                    size: 422937 bytes
 (epstopdf)             Command: <epstopdf --outfile=spacetime-eps-converted-to.
 pdf spacetime.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
-<spacetime-eps-converted-to.pdf, id=30, 505.89pt x 722.7pt>
+<spacetime-eps-converted-to.pdf, id=23, 505.89pt x 722.7pt>
 File: spacetime-eps-converted-to.pdf Graphic file (type pdf)
 
 <use spacetime-eps-converted-to.pdf>
-Package pdftex.def Info: spacetime-eps-converted-to.pdf used on input line 147.
+Package pdftex.def Info: spacetime-eps-converted-to.pdf used on input line 158.
 
 (pdftex.def)             Requested size: 234.0pt x 235.72575pt.
 
-Overfull \hbox (13.72575pt too wide) in paragraph at lines 146--149
+Overfull \hbox (13.72575pt too wide) in paragraph at lines 157--160
 []  
  []
 
@@ -1362,31 +1377,27 @@ Overfull \hbox (13.72575pt too wide) in paragraph at lines 146--149
 ===== Image 'bz-figure3' is up-to-date. ======
 ===== Image 'bz-figure4' is up-to-date. ======
 
-Overfull \hbox (12.00023pt too wide) in paragraph at lines 178--218
+Overfull \hbox (12.00023pt too wide) in paragraph at lines 189--229
  [][] 
  []
 
 
-Overfull \hbox (12.00023pt too wide) in paragraph at lines 178--218
+Overfull \hbox (12.00023pt too wide) in paragraph at lines 189--229
  [] 
  []
 
 
-Overfull \hbox (12.00023pt too wide) in paragraph at lines 178--218
+Overfull \hbox (12.00023pt too wide) in paragraph at lines 189--229
  [] 
  []
 
 
-Overfull \hbox (12.00023pt too wide) in paragraph at lines 178--218
+Overfull \hbox (12.00023pt too wide) in paragraph at lines 189--229
  [] 
  []
 
-
-Underfull \hbox (badness 1062) in paragraph at lines 247--248
-[]\T1/aer/m/n/8 Nagy-Ungvárai, Zsuzsanna, and Benno Hess. "Con-
- []
-
-[3 <./spacetime-eps-converted-to.pdf> <./bz-figure0.pdf
+[2] [3 <./microelectrode.jpg> <./spacetime-eps-converted-to.pdf> <./setup-eps-c
+onverted-to.pdf> <./bz-figure0.pdf
 
 pdfTeX warning: pdflatex (file ./bz-figure0.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ColorSpace', type <null>); ignored.
@@ -1399,10 +1410,11 @@ resource which is no dict (key 'Pattern', type <null>); ignored.
 pdfTeX warning: pdflatex (file ./bz-figure0.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ExtGState', type <null>); ignored.
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
- [4
+Underfull \hbox (badness 1062) in paragraph at lines 258--259
+[]\T1/aer/m/n/8 Nagy-Ungvárai, Zsuzsanna, and Benno Hess. "Con-
+ []
 
- <./bz-figure1.pdf
+[4 <./bz-figure1.pdf
 
 pdfTeX warning: pdflatex (file ./bz-figure1.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ColorSpace', type <null>); ignored.
@@ -1451,17 +1463,18 @@ resource which is no dict (key 'Pattern', type <null>); ignored.
 pdfTeX warning: pdflatex (file ./bz-figure4.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ExtGState', type <null>); ignored.
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
  (./bz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 254.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 265.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
- 27753 strings out of 493013
- 660650 string characters out of 6135682
- 878371 words of memory out of 5000000
- 30682 multiletter control sequences out of 15000+600000
+ 27757 strings out of 493013
+ 660768 string characters out of 6135682
+ 882371 words of memory out of 5000000
+ 30686 multiletter control sequences out of 15000+600000
  37138 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,96p,896b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1481,10 +1494,10 @@ sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on bz.pdf (4 pages, 5237527 bytes).
+Output written on bz.pdf (4 pages, 5593714 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
