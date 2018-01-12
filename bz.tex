@@ -155,6 +155,16 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 
 
 \section{Results and discussion}
+Fig. \ref{fig:spatiotemporal}A shows the electrochemical spatiotemporal image overlayed on top of the optical one.
+A very good correlation can be observed between the changes of the potential of the platinum microelectrode and the propagation of the oxidizing chemical waves that is visible in the optical image.
+Furthermore, there is no evidence of any convective disturbance caused by the movement of the microelectrode.
+Photographs of the reaction mixture at time instances marked by (a)--(b) (in Fig. \ref{fig:spatiotemporal}A) can be seen in Fig. \ref{fig:grabs}.
+These are the starting points of the first four scan cycles.
+At point (a), the microelectrode is at the starting point (marked by the green dot) of the first scan cycle, before any (lateral) tip movement has occured.
+Points (b)--(c) are representing a state where one ,two, and three consecutive scan cycles has benn completed.
+Even after these, the shape of the oxidizing waves is unchanged.
+Fig. \ref{fig:spatiotemporal}B depicts the potential changes of the microelectrode between (a) and (b).
+
 
 
 
@@ -189,56 +199,53 @@ Blue line: forward scan, red line: backwards scan.}
 
 
 
-\def\s{0.5}
-\def\left{70}
-\def\bottom{120}
-\def\right{50}
-\def\top{30}
-\begin{figure}
-\centering
-\begin{tikzpicture}
-    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{0.png}};
-    \draw (3.8, 1) node {\textbf{a}};
-    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-\end{tikzpicture}
+%\def\s{0.5}
+%\def\left{70}
+%\def\bottom{120}
+%\def\right{50}
+%\def\top{30}
+%\begin{figure}
+%\centering
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{0.png}};
+%    \draw (3.8, 1) node {\textbf{a}};
+%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
 %\begin{tikzpicture}
 %    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{right.png}};
 %    \draw (3.8, 1) node {a};
 %    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
 %    \draw [purple] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 %\end{tikzpicture}
-\begin{tikzpicture}
-    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1.png}};
-    \draw (3.8, 1) node {\textbf{b}};
-    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-
-\end{tikzpicture}
-\begin{tikzpicture}
-    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2.png}};
-    \draw (3.8, 1) node {\textbf{c}};
-    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-
-\end{tikzpicture}
-\begin{tikzpicture}
-    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{3.png}};
-    \draw (3.8, 1) node {\textbf{d}};
-    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-
-\end{tikzpicture}
-\caption{Frame grabs from the video that was recorded during the experiment.
-(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
-(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
-Green dot: starting and finishing position of the scan cycle.
-Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
-In the images, the pin header that was holding the carbon fiber is visible above the green dot.
-Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
-On the left side the end of the double wall reference electrode is visible.}
-\label{fig:grabs}
-\end{figure}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1.png}};
+%    \draw (3.8, 1) node {\textbf{b}};
+%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2.png}};
+%    \draw (3.8, 1) node {\textbf{c}};
+%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{3.png}};
+%    \draw (3.8, 1) node {\textbf{d}};
+%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\caption{Frame grabs from the video that was recorded during the experiment.
+%(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
+%(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+%Green dot: starting and finishing position of the scan cycle.
+%Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
+%In the images, the pin header that was holding the carbon fiber is visible above the green dot.
+%Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
+%On the left side the end of the double wall reference electrode is visible.}
+%\label{fig:grabs}
+%\end{figure}
 
 %\begin{tikzpicture}
 %  \begin{axis}
@@ -247,6 +254,85 @@ On the left side the end of the double wall reference electrode is visible.}
 %  \end{axis}
 %\end{tikzpicture}
 
+
+%\def\s{0.5}
+%\def\left{240}
+%\def\bottom{240}
+%\def\right{150}
+%\def\top{50}
+%\begin{figure}
+%\centering
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1988.png}};
+    %\draw (3.8, 1) node {\textbf{a}};
+    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2108.png}};
+    %\draw (3.8, 1) node {\textbf{b}};
+    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2357.png}};
+    %\draw (3.8, 1) node {\textbf{c}};
+    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2477.png}};
+    %\draw (3.8, 1) node {\textbf{d}};
+    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{5351.png}};
+    %\draw (3.8, 1) node {\textbf{d}};
+    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+%\end{tikzpicture}
+%\caption{Frame grabs from the video that was recorded during the experiment.
+%(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
+%(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+%Green dot: starting and finishing position of the scan cycle.
+%Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
+%In the images, the pin header that was holding the carbon fiber is visible above the green dot.
+%Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
+%On the left side the end of the double wall reference electrode is visible.}
+%\label{fig:grabs}
+%\end{figure}
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+    %\draw (0, 0) node[inner sep=0] {\includegraphics[trim={2cm 0cm 2cm 0 }, clip,width=\s\textwidth]{grabs.png}};
+    \draw (0, 0) node[inner sep=0] {\includegraphics[width=0.45\textwidth]{grabs.png}};
+    \draw (3.8, 1) node {\textbf{a}};
+    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
+    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
+\end{tikzpicture}
+\caption{iFrame grabs from the video that was recorded during the experiment.
+(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
+(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+Green dot: starting and finishing position of the scan cycle.
+Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
+In the images, the pin header that was holding the carbon fiber is visible above the green dot.
+Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
+On the left side the end of the double wall reference electrode is visible.}
+\label{fig:grabs2}
+\end{figure}
+
+
+\begin{figure}
+% trim = top left bottom right
+
+\centering
+\includegraphics[width=\s\textwidth]{setup_photo.jpg}
+%\vspace{1cm}
+\caption{Experimental setup.}
+\label{fig:spatiotemporal}
+\end{figure}
 
 \section{Conclusions}
 

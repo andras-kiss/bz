@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.13)  16 OCT 2017 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  12 JAN 2018 11:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1212,6 +1212,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 18.
 Package gensymb Warning: Not defining \micro.
 
 \emailauthor{akiss@gamma.ttk.pte.hu}{András Kiss\corref {cor}}
+\emailauthor{g-nagy@gamma.ttk.pte.hu}{Géza Nagy}
 LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1221,43 +1222,67 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-Package natbib Warning: Citation `belousov' on page 1 undefined on input line 5
-5.
+Package natbib Warning: Citation `bansagi2011' on page 1 undefined on input lin
+e 55.
+
+
+Package natbib Warning: Citation `zaikin1970' on page 1 undefined on input line
+ 57.
 
 
 Package natbib Warning: Citation `fkn1' on page 1 undefined on input line 58.
 
 
-Package natbib Warning: Citation `fkn2' on page 1 undefined on input line 58.
+Package natbib Warning: Citation `fkn2' on page 1 undefined on input line 60.
 
 
-Package natbib Warning: Citation `hess2' on page 1 undefined on input line 64.
+Package natbib Warning: Citation `hess2' on page 1 undefined on input line 75.
 
 
-Package natbib Warning: Citation `hess3' on page 1 undefined on input line 64.
+Package natbib Warning: Citation `hess3' on page 1 undefined on input line 75.
 
 
-Package natbib Warning: Citation `hess2' on page 1 undefined on input line 69.
+Package natbib Warning: Citation `hess2' on page 1 undefined on input line 80.
 
 
-Package natbib Warning: Citation `hess3' on page 1 undefined on input line 69.
+Package natbib Warning: Citation `hess3' on page 1 undefined on input line 80.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `winfree' on page 2 undefined on input line 80
+Package natbib Warning: Citation `winfree' on page 2 undefined on input line 92
 .
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 88--102
+LaTeX Warning: Reference `fig:setup' on page 2 undefined on input line 101.
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 100--114
  \T1/aer/m/it/10 Scan-ning Elec-tro-chem-i-cal Mi-croscopy.[] \T1/aer/m/n/10 A 
 dou-ble
  []
 
+The command '\includegraphics [width=0.45\textwidth ]{setup.eps}' has been opti
+mized away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [trim = 200mm 100mm 150mm 200mm, clip, width=0.3\
 textwidth ]{microelectrode.jpg}' has been optimized away. Use '/tikz/external/o
 ptimize=false' to disable this.
+
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 158.
+
+
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 161.
+
+
+LaTeX Warning: Reference `fig:grabs' on page 3 undefined on input line 161.
+
+
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 166.
+
 The command '\includegraphics [trim = 15mm 60mm 0mm 30mm, clip, width=\s \textw
 idth , angle=-90]{spacetime.eps}' has been optimized away. Use '/tikz/external/
 optimize=false' to disable this.
@@ -1268,7 +1293,7 @@ PGFPlots: reading {17101308_st_lines_back.txt}
 \openout6 = `bz-figure0.dep'.
 
 PGFPlots: reading {17101308_st_lines_there.txt}
-[2
+[3
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1291,41 +1316,66 @@ isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-LaTeX Warning: Reference `fig:spatiotemporal' on page 2 undefined on input line
- 218.
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 249.
 
 
-LaTeX Warning: Reference `fig:spatiotemporal' on page 2 undefined on input line
- 218.
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 249.
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 306.
 
 
-Underfull \vbox (badness 4429) has occurred while \output is active []
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 306.
+
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 325.
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 247--248
+LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
+ 325.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 352--353
 []\T1/aer/m/n/8 Nagy-Ungv�rai, Zsuzsanna, and Benno Hess. "Con-
  []
 
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 359.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 28099 strings out of 493013
- 672126 string characters out of 6135682
- 920151 words of memory out of 5000000
- 31067 multiletter control sequences out of 15000+600000
+ 28113 strings out of 493013
+ 672320 string characters out of 6135682
+ 918575 words of memory out of 5000000
+ 31081 multiletter control sequences out of 15000+600000
  30233 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,13n,96p,751b,2037s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,96p,751b,2035s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 Output written on bz-figure0.pdf (1 page, 23739 bytes).
