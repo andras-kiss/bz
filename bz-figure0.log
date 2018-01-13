@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  12 JAN 2018 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.9)  13 JAN 2018 19:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1270,29 +1270,33 @@ textwidth ]{microelectrode.jpg}' has been optimized away. Use '/tikz/external/o
 ptimize=false' to disable this.
 
 LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 158.
+ 159.
+
+
+LaTeX Warning: Reference `fig:grabs2' on page 3 undefined on input line 161.
+
+
+LaTeX Warning: Reference `table:stats' on page 3 undefined on input line 180.
+
+
+Overfull \hbox (6.29608pt too wide) in paragraph at lines 186--200
+ [][] 
+ []
 
 
 LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 161.
-
-
-LaTeX Warning: Reference `fig:grabs' on page 3 undefined on input line 161.
-
-
-LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 166.
+ 205.
 
 The command '\includegraphics [trim = 15mm 60mm 0mm 30mm, clip, width=\s \textw
 idth , angle=-90]{spacetime.eps}' has been optimized away. Use '/tikz/external/
 optimize=false' to disable this.
 \openout5 = `bz-figure0.dpth'.
 
-PGFPlots: reading {17101308_st_lines_back.txt}
-\tikzexternal@dep@file=\write6
-\openout6 = `bz-figure0.dep'.
-
-PGFPlots: reading {17101308_st_lines_there.txt}
+<grabs.png, id=4, 178.18294pt x 149.88014pt>
+File: grabs.png Graphic file (type png)
+<use grabs.png>
+Package pdftex.def Info: grabs.png used on input line 347.
+(pdftex.def)             Requested size: 210.59857pt x 177.1566pt.
 [3
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1306,82 +1310,50 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+Non-PDF special ignored! <./grabs.png>]
 
 LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 249.
+ 359.
 
 
 LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 249.
+ 359.
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+The command '\includegraphics [width=\s \textwidth ]{setup_photo.jpg}' has been
+ optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 306.
+Underfull \vbox (badness 1796) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 306.
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 325.
-
-
-LaTeX Warning: Reference `fig:spatiotemporal' on page 3 undefined on input line
- 325.
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 352--353
+Underfull \hbox (badness 1062) in paragraph at lines 402--403
 []\T1/aer/m/n/8 Nagy-Ungvárai, Zsuzsanna, and Benno Hess. "Con-
  []
 
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 359.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 407.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 407.
  ) 
 Here is how much of TeX's memory you used:
- 28113 strings out of 493013
- 672320 string characters out of 6135682
- 918575 words of memory out of 5000000
- 31081 multiletter control sequences out of 15000+600000
- 30233 words of font info for 55 fonts, out of 8000000 for 9000
+ 27717 strings out of 493013
+ 660740 string characters out of 6135683
+ 885183 words of memory out of 5000000
+ 30693 multiletter control sequences out of 15000+600000
+ 28070 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,13n,96p,751b,2035s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on bz-figure0.pdf (1 page, 23739 bytes).
+ 63i,14n,96p,751b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on bz-figure0.pdf (1 page, 602446 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 14 PDF objects out of 1000 (max. 8388607)
+ 5 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

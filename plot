@@ -14,10 +14,23 @@ set bmargin at screen 0.15
 set tmargin at screen 0.9
 #Plot the background image
 set offsets 0, 0,0,0
-set label "a" at 600,15 tc rgb "white" font ",20" right front
-set label "b" at 600,66 tc rgb "white" font ",20" right front
-set label "c" at 600,117 tc rgb "white" font ",20" right front
-set label "d" at 600,168 tc rgb "white" font ",20" right front
+set label "1" at 9600,40 tc rgb "white" font ",20" right front
+set label "2" at 9600,65 tc rgb "white" font ",20" right front
+set label "3" at 9600,88 tc rgb "white" font ",20" right front
+set label "4" at 9600,102 tc rgb "white" font ",20" right front
+set label "5" at 9600,115 tc rgb "white" font ",20" right front
+set label "6" at 9600,150 tc rgb "white" font ",20" right front
+set label "7" at 9600,192 tc rgb "white" font ",20" right front
+set label "8" at 9600,213 tc rgb "white" font ",20" right front
+set label "9" at 9600,243 tc rgb "white" font ",20" right front
+set label "10" at 9600,255 tc rgb "white" font ",20" right front
+set label "11" at 9600,269 tc rgb "white" font ",20" right front
+set label "12" at 9600,298 tc rgb "white" font ",20" right front
+set label "13" at 7200,298 tc rgb "white" font ",20" right front
+set label "14" at 900,290 tc rgb "white" font ",20" right front
+
+#set label "c" at 600,155 tc rgb "white" font ",20" right front
+#set label "d" at 600,168 tc rgb "white" font ",20" right front
 
 plot "optical2.jpg" binary filetype=jpg w rgbimage notitle
 

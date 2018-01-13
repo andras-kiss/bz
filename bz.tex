@@ -69,7 +69,7 @@ In a more comprehensive publication, they established the \emph{,,FKN--mechanism
 %They recorded the potential of a platinum electrode and a bromide ion selective electrode in a stirred reaction.
 
 Potentiometry is an ideal method to study the BZ reaction, allowing the simultaneous detection of several ionic species as well as the redox potential.
-Furthermore, it's a passive technique, it does not consume or produce the components of the reaction.
+Furthermore, it's a passive technique, it does not consume or produce the species of the reaction.
 However, conventional electrodes cannot be used to record the potential changes in distributed systems, because the patterns emerge on a much smaller scale, in the millimeter range, while the electrodes used by Field, Kőrös and Noyes were in the centimeter range.
 Also, the large electrodes would disrupt the propagation of the chemical waves.
 For this purpose, potentiometric microelectrodes were used \cite{hess2, hess3}.
@@ -97,8 +97,8 @@ After the orange color of bromine vanished, 0.333 ml of 25 mM phenantroline ferr
 The thickness of the reaction mixture was about 0.9 mm.
 At this stage, the spontaneous formation of spatial patterns started.
 
-\paragraph{Scanning Electrochemical Microscopy} A double wall Ag/AgCl/3 M KCl/0.1 M CH$_3$COOLi reference electrode was placed inside the reaction mixture, close to the edge of the Petri dish.
-Then, a $d_o = 7\, \upmu$m carbon microelectrode was submersed less than 1 $\upmu$m into the reaction mixture (Fig. \ref{fig:setup}.).
+\paragraph{Scanning Electrochemical Microscopy} A double junction Ag/AgCl/3 M KCl/0.1 M CH$_3$COOLi reference electrode was placed inside the reaction mixture, close to the edge of the Petri dish.
+Then, a $d_o = 7\, \upmu$m carbon microelectrode was submersed less than 1 $\upmu$m into the reaction mixture (Figure \ref{fig:setup}.).
 To accomplish it, the tip of the microelectrode was brought to contact with the reaction mixture by approaching the surface in 100 $\upmu$m increments using the Z axis of the SECM.
 During this step, the potential of the microelectrode was continuously monitored.
 When a sudden jump in the potential was observed -- as a consequence of the microelectrode making contact with the reaction mixture --, the microelectrode was retracted by 100 $\upmu$m.
@@ -129,7 +129,8 @@ The other end of the header was soldered to a $d = $ 1 mm isolated copper wire t
 \textbf{B}
 \end{flushleft}
 
-\includegraphics[trim = 200mm 100mm 150mm 200mm, clip, width=0.3\textwidth]{microelectrode.jpg}
+\includegraphics[width=0.45\textwidth]{setup_photo.jpg}
+%\includegraphics[trim = 200mm 100mm 150mm 200mm, clip, width=0.3\textwidth]{microelectrode.jpg}
 
 \caption{The carbon fiber microelectrode soldered into the hole of a round female pin header. The diameter of the carbon fiber is 7 $\upmu$m. Since only a less than 1 $\upmu$m portion of the carbon fiber was submersed into the solution, insulation wasn't necessary.}
 \label{fig:setup}
@@ -155,49 +156,86 @@ The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 
 
 \section{Results and discussion}
-Fig. \ref{fig:spatiotemporal}A shows the electrochemical spatiotemporal image overlayed on top of the optical one.
+
+Figure \ref{fig:spatiotemporal}A shows the electrochemical spatiotemporal image overlayed on top of the optical one.
 A very good correlation can be observed between the changes of the potential of the platinum microelectrode and the propagation of the oxidizing chemical waves that is visible in the optical image.
-Furthermore, there is no evidence of any convective disturbance caused by the movement of the microelectrode.
-Photographs of the reaction mixture at time instances marked by (a)--(b) (in Fig. \ref{fig:spatiotemporal}A) can be seen in Fig. \ref{fig:grabs}.
-These are the starting points of the first four scan cycles.
-At point (a), the microelectrode is at the starting point (marked by the green dot) of the first scan cycle, before any (lateral) tip movement has occured.
-Points (b)--(c) are representing a state where one ,two, and three consecutive scan cycles has benn completed.
-Even after these, the shape of the oxidizing waves is unchanged.
-Fig. \ref{fig:spatiotemporal}B depicts the potential changes of the microelectrode between (a) and (b).
+Figure \ref{fig:grabs2}. shows the encounter of the moving microelectrode with wave \#3.
+There is no evidence of any convective disturbance caused by the movement of the microelectrode.
+This is important, because the BZ reaction is very sensitive to external influences, and it wouldn't be possible to properly observe it with a technique that would influence the reaction.
+It seems like the 7 $\upmu$m microelectrode diameter is small enough that the small convective effect is alleviated by diffusion to such an extent, that the reaction behaves as if the microelectrode wasn't there.
 
+%Photographs of the reaction mixture at time instances marked by (a)--(b) (in Fig. \ref{fig:spatiotemporal}A) can be seen in Fig. \ref{fig:grabs}.
+%These are the starting points of the first four scan cycles.
+%At point (a), the microelectrode is at the starting point (marked by the green dot) of the first scan cycle, before any (lateral) tip movement has occured.
+%Points (b)--(c) are representing a state where one ,two, and three consecutive scan cycles has benn completed.
+%Even after these, the shape of the oxidizing waves is unchanged.
+%Fig. \ref{fig:spatiotemporal}B depicts the potential changes of the microelectrode between (a) and (b).
+Parameters that can be determined from the optical data -- such as the travel speed of chemical waves -- can also be calculated from the SECM spatiotemporal measurements.
+In case of stationary microelectrode, two of them would be necessary at a known distance from each other to calculate the travel speed.
+It could be calculated as the ratio of the distance between the electrodes, and the time it takes for the wave to get from the first microelectrode to the second.
+However, using the SECM, one microelectrode is sufficient because the tip can be repositioned to allow additional measurements of the same wave.
+%The individual waves are numbered in Fig. \ref{fig:spatiotemporal}A.
+For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
+The exact positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
+Based in this data, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
+Table \ref{table:stats} contains several parameters of the waves that were encountered multiple times by the microelectrode. 
 
+\begin{table}
+\caption{Chemical wave encounters by the microelectrode.}
+\label{table:stats}
+\centering
+\begin{tabular}{r c c c c}
+ Wave\# & t, s & E, V & x, $\upmu$m & v, $\upmu$m/s \\
+ \hline
+ \hline
+ 3&\begin{tabular}{c}47\\67\\80\end{tabular}&\begin{tabular}{c}0.957\\0.978\\0.977\end{tabular}&\begin{tabular}{c}1400\\6400\\6800\end{tabular}&218.18\\
+ \hline
+ 6&\begin{tabular}{c}99\\114\\133.5\end{tabular}&\begin{tabular}{c}0.968\\0.975\\1.027\end{tabular}&\begin{tabular}{c}1000\\4800\\7600\end{tabular}&191.3\\
+ \hline
+ 7&\begin{tabular}{c}148.5\\171\\181.5\end{tabular}&\begin{tabular}{c}1.052\\1.127\\1.059\end{tabular}&\begin{tabular}{c}1600\\7200\\8800\end{tabular}&218.18\\
+ \hline
+ 9&\begin{tabular}{c}200\\219.5\\234.5\end{tabular}&\begin{tabular}{c}1.016\\1.074\\1.016\end{tabular}&\begin{tabular}{c}1400\\6200\\8000\end{tabular}&191.3\\
+ \hline
+ 12&\begin{tabular}{c}253.5\\268\\287\end{tabular}&\begin{tabular}{c}1.060\\1.120\\1.053\end{tabular}&\begin{tabular}{c}400\\5200\\7400\end{tabular}&208.96\\
+\end{tabular}
+\end{table}
 
+Using only one electrode has several advantages over using an array, for instance one doesn't have to worry about the differences between the electrodes.
+Furthermore, when using an SECM in such study, the microelectrode can be positioned to any coordinate within the mechanical boundaries of the instrument.
+
+One drawback is that the electrochemical data presented in figure \ref{fig:spatiotemporal}. is rather sparse compared to the optical image beneath.
+An obvious improvement would be increasing the scanning speed, to make the scanlines more dense.
+This is currently a limitation of the SECM instrument in our laboratory, and is subject to a subsequent paper.
+
+The travel speeds calculated are certainly not accurate, since in the measurement both the temporal ($\delta$t=0.5 s) and the spatial ($\delta$x=200 $\upmu$m) data is discrete, hence the matching values of waves \#3 -- \#7 and waves \#6 -- \#9.
 
 
 \def\s{0.5}
 \begin{figure}
-% trim = top left bottom right
-
+%% trim = top left bottom right
 \centering
-\flushleft{\textbf{\large{A}}}
+%\flushleft{\textbf{\large{A}}}
 \includegraphics[trim = 15mm 60mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
-%\vspace{1cm}
-
-\flushleft{\textbf{\large{B}}}
-\begin{tikzpicture}
-  \begin{axis}[width=7cm, height=5cm, xlabel={x / cm},ylabel={time / s},zlabel={E / V}, zmin=0.9]
-    %\addplot3[surf, x filter/.code{\pgfmathparse{\pgfmathresults/10000}}] table {17101308_st_lines.txt};
-    \addplot3[very thick, color=red] table {17101308_st_lines_back.txt};
-    %\addplot3[thick, color=blue] table {17101308_st_lines_there_zerox.txt};
-    %\addplot3[thick, color=red] table {17101308_st_lines_back_zerox.txt};
-    %\addplot3[color=blue] table {17101308_st_lines_there_base.txt};
-    \addplot3[very thick, color=blue] table {17101308_st_lines_there.txt};
-  \end{axis}
-\end{tikzpicture}
-\caption{(A) Electrochemical space-time plot overlayed on top of the corresponding optical one.
+%%\vspace{1cm}
+%\flushleft{\textbf{\large{B}}}
+%\begin{tikzpicture}
+%  \begin{axis}[width=7cm, height=5cm, xlabel={x / cm},ylabel={time / s},zlabel={E / V}, zmin=0.9]
+%    %\addplot3[surf, x filter/.code{\pgfmathparse{\pgfmathresults/10000}}] table {17101308_st_lines.txt};
+%    \addplot3[very thick, color=red] table {17101308_st_lines_back.txt};
+%    %\addplot3[thick, color=blue] table {17101308_st_lines_there_zerox.txt};
+%    %\addplot3[thick, color=red] table {17101308_st_lines_back_zerox.txt};
+%    %\addplot3[color=blue] table {17101308_st_lines_there_base.txt};
+%    \addplot3[very thick, color=blue] table {17101308_st_lines_there.txt};
+%  \end{axis}
+%\end{tikzpicture}
+\caption{Electrochemical space-time plot overlayed on top of the corresponding optical one.
 The potential of the carbon fiber microelectrode is shown as a function of spatiotemporal coordinates.
-(a)--(d) Instances in time at (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
-(B) Space-time plot of the two scanlines between (b) and (c).
-Blue line: forward scan, red line: backwards scan.}
+%(a)--(d) Instances in time at (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
+%(B) Space-time plot of the two scanlines between (b) and (c).
+%Blue line: forward scan, red line: backwards scan.
+}
 \label{fig:spatiotemporal}
 \end{figure}
-
-
 
 %\def\s{0.5}
 %\def\left{70}
@@ -312,32 +350,32 @@ Blue line: forward scan, red line: backwards scan.}
     %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
     %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 \end{tikzpicture}
-\caption{iFrame grabs from the video that was recorded during the experiment.
+\caption{Frame grabs from the video that was recorded during the experiment.
 (a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
 (a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
 Green dot: starting and finishing position of the scan cycle.
 Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
 In the images, the pin header that was holding the carbon fiber is visible above the green dot.
 Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
-On the left side the end of the double wall reference electrode is visible.}
+On the left side the end of the double junction reference electrode is visible.}
 \label{fig:grabs2}
 \end{figure}
 
-
-\begin{figure}
-% trim = top left bottom right
-
-\centering
-\includegraphics[width=\s\textwidth]{setup_photo.jpg}
-%\vspace{1cm}
-\caption{Experimental setup.}
-\label{fig:spatiotemporal}
-\end{figure}
-
 \section{Conclusions}
+Potentiometry has been used to study the BZ reaction almost since its discovery.
+Compared to the optical methods, it allowed far more reaching conclusions to be made by several research groups.
+There was however one area where electrochemical investigations certainly lacked; they couldn't provide spatial information, which 2D photometry or tomography could easily do.
+In this paper, we made an attempt to combine the advantages of the two techniques.
+In its current form there are several limitations of the technique, for instance, the relatively low density of the electrochemical data.
+Further development can be expected.
+
+By using potentiometric SECM with a sufficiently small microelectrode, the redox potential can be spatially resolved in a quasy-2D BZ reaction, without influencing the reaction.
+By substituting the indicator tip or combining multiple ones, other parameters -- such as bromide ion activity -- can be measured, possibly simultaneously.
+This could provide a great opportunity to further advance our understanding of the BZ and other oscillating reactions.
 
 \section*{Acknowledgements}
-
+The work was financially supported by the National Research, Development and Innovation Office (Budapest, Hungary) under grant K125244.
+András Kiss is thankful for the inspiring discussions with Gyula Hoffmann about pattern formation.
 \section*{References}
 
 \begin{thebibliography}{5}
@@ -360,6 +398,4 @@ On the left side the end of the double wall reference electrode is visible.}
 \bibitem{winfree} Winfree, Arthur T. The geometry of biological time. Vol. 12. Springer Science \& Business Media, 2001.
 
 \end{thebibliography}
-
-
 \end{document}

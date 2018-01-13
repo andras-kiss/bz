@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  12 JAN 2018 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.9)  13 JAN 2018 15:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1290,11 +1290,11 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 \openout5 = `bz-figure1.dpth'.
 
-<grabs.png, id=4, 177.75145pt x 149.68544pt>
+<grabs.png, id=4, 178.18294pt x 149.88014pt>
 File: grabs.png Graphic file (type png)
 <use grabs.png>
 Package pdftex.def Info: grabs.png used on input line 310.
-(pdftex.def)             Requested size: 210.59857pt x 177.34674pt.
+(pdftex.def)             Requested size: 210.59857pt x 177.1566pt.
 [3
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1338,14 +1338,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
  ) 
 Here is how much of TeX's memory you used:
  27718 strings out of 493013
- 660742 string characters out of 6135682
- 880182 words of memory out of 5000000
+ 660742 string characters out of 6135683
+ 880183 words of memory out of 5000000
  30693 multiletter control sequences out of 15000+600000
  29579 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,10n,96p,751b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bz-figure1.pdf (1 page, 539490 bytes).
+Output written on bz-figure1.pdf (1 page, 602330 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  5 compressed objects within 1 object stream
