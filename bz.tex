@@ -39,16 +39,13 @@
 Patterns emerging in a distributed Belousov-Zhabotinsky reaction are usually studied with optical methods.
 However, these methods provide only approximate information about the oxidation state of an indicator, and they cannot be applied when there is no indicator dye or other colored component whose concentration is oscillating.
 To gather additional information about the processes involved in the reaction, electrochemical methods have been used by many research groups.
-%Using the appropriate electrodes, changes in bromide ion activity, pH and redox potential can be monitored.
 Unfortunately, these methods will influence a distributed system, since they require electrodes to be placed inside the reaction mixture.
 The electrodes -- depending on their size -- will influence the formation of spatial patterns, especially if one of them moves, for instance when used as a measuring tip in scanning electrochemical microscopy (SECM).
-%This poses no problem when the studied reaction is stirred, but in a distributed system the electrodes -- depending on their size -- will influence the formation of spatial patterns, especially if one of them moves, for instance when used as a measuring tip in scanning electrochemical microscopy (SECM).
 
 The aim of this paper is to show that the advantages of optical and electrochemical methods can be combined.
 That is, spatially resolved electrochemical data can be gathered of certain species in the reaction.
 Furthermore, in this paper we show that, using a sufficiently small indicator microelectrode, convective effects can be minimized to a point where no evidence of any disturbance by the moving microprobe to the reaction can be observed.
 The first spatiotemporal SECM image about a distributed Belousov-Zhabotinsky reaction is shown, overlayed on top of the corresponding optical spatiotemporal image.
-%It was achieved by using a fine ($d_o=7\, \upmu$m) carbon microelectrode with $\leq 1\, \upmu$m immersion depth.
 
 \end{abstract}
 \begin{keyword}
@@ -65,15 +62,6 @@ Data obtained from a basic photographic method was enough for Zhabotinsky and Za
 However -- as another example of development by applying new methods -- a great deal of progress was made when Richard Noyes, Richard Field and Endre Kőrös measured the redox potential and bromide-ion activiy in a stirred BZ reaction \cite{fkn1}.
 They were able to construct a sophisticated model \cite{fkn2}.
 Their model is based almost exclusively on data obtained directly from potentiometric measurements, or thermodynamic quantites derived from the electrochemical data.
-
-%New discoveries usually coincide with the application of new methods, as the example of 
-
-%The Belousov-Zhabotinsky (BZ) reaction is a good model for pattern formation, but it's an interesting phenomenon in its own right.
-%The original observation was made by Belousov \cite{belousov}, who discovered that in the mixture of potassium bromate, malonic acid, citric acid and cerium(IV) sulfate in acidic conditions the ratio of cerium(III) and cerium(IV) ions oscillated.
-%His observation was based on color changes: ceric sulfate solution has a distinct yellow color.
-
-%The mechanism was elucidated by Field, Kőrös and Noyes based on data obtained with electrochemical methods \cite{fkn1, fkn2}.
-%They recorded the potential of a platinum electrode and a bromide ion selective electrode in a stirred reaction.
 
 Potentiometry is an ideal method to study the BZ reaction, allowing the simultaneous detection of several ionic species as well as the redox potential.
 Furthermore, it's a passive technique, it does not consume or produce the species of the reaction.
@@ -94,9 +82,7 @@ Only a small portion (less than 1 $\upmu$m) of the fiber was submersed into the 
 Redox potential was mapped in the spatio-temporal plane, and was overlayed on the traditional optical image to prove that the recorded potential changes correspond to the chemical waves made visible by ferroin redox indicator.
 
 \section{Materials and methods}
-\paragraph{The Belousov-Zhabotinsky reaction} 
-%The initial concentrations of the reactants for the reaction is given in Table \ref{table:recipe}.
-To start the reaction, the method that is described in \cite{winfree} by A. T. Winfree was used.
+\paragraph{The Belousov-Zhabotinsky reaction} To start the reaction, the method that is described in \cite{winfree} by A. T. Winfree was used.
 Solution ''A,, was prepared by adding 2 ml of concentrated sulfuric acid and 5 g sodium bromate to 67 ml water.
 Solution ,,B'' was 1 g malonic acid dissolved in 10 ml of water, solution ,,C'' was 1 g sodium bromate dissolved in 10 ml of water.
 2 ml of ,,A'', 0.333 ml of ,,B'' and 0.166 ml ,,C'' was added to a small Petri dish ($d=5 \,$cm).
@@ -137,11 +123,15 @@ The other end of the header was soldered to a $d=$ 1 mm isolated copper wire to 
 \end{flushleft}
 
 \includegraphics[width=0.45\textwidth]{setup_photo.jpg}
-%\includegraphics[trim = 200mm 100mm 150mm 200mm, clip, width=0.3\textwidth]{microelectrode.jpg}
+
+\begin{flushleft}
+\textbf{C}
+\end{flushleft}
+
+\includegraphics[width=0.45\textwidth]{0.png}
 
 \caption{
-Sketch (A) and photograph (B) of the experimental setup.
-%The carbon fiber microelectrode soldered into the hole of a round female pin header. The diameter of the carbon fiber is 7 $\upmu$m. Since only a less than 1 $\upmu$m portion of the carbon fiber was submersed into the solution, insulation wasn't necessary.
+Sketch (A) and photograph (B) of the experimental setup. (C) The image seen by the camera.
 }
 \label{fig:setup}
 \end{figure}
@@ -153,39 +143,20 @@ The position and orientation of these 1 pixel high frames matched that of the sc
 The image sequence was assambled by stacking the grabs vertically using Imagemagick 1.3.20.
 The overlayed optical-electrochemical plot was created in Gnuplot 4.6.6.
 
-%\begin{table}
-% \caption{Initial concentrations of the reactants for the reaction.}
-% \label{table:recipe}
-% \centering
-% \begin{tabular}{r c}
-%  Reactant & Concentration \\
-%  \hline
-%  1 & 2 \\
-% \end{tabular}
-%\end{table}
-
-
 \section{Results and discussion}
 
 Figure \ref{fig:spatiotemporal}A shows the electrochemical spatiotemporal image overlayed on top of the optical one.
+The measured redox potential represents the ferroin/ferriin ratio in the reaction.
 A very good correlation can be observed between the changes of the potential of the carbon fiber microelectrode and the propagation of the oxidizing chemical waves that is visible in the optical image.
 Figure \ref{fig:grabs2}. shows the encounter of the moving microelectrode with wave \#3.
 There is no evidence of any convective disturbance caused by the movement of the microelectrode.
 This is important, because the BZ reaction is very sensitive to external influences, and it wouldn't be possible to properly observe it with a technique that would influence the reaction.
 It seems like the 7 $\upmu$m microelectrode diameter is small enough that the convective effect is alleviated by diffusion to such an extent, that the reaction behaves as if the microelectrode wasn't there.
 
-%Photographs of the reaction mixture at time instances marked by (a)--(b) (in Fig. \ref{fig:spatiotemporal}A) can be seen in Fig. \ref{fig:grabs}.
-%These are the starting points of the first four scan cycles.
-%At point (a), the microelectrode is at the starting point (marked by the green dot) of the first scan cycle, before any (lateral) tip movement has occured.
-%Points (b)--(c) are representing a state where one ,two, and three consecutive scan cycles has benn completed.
-%Even after these, the shape of the oxidizing waves is unchanged.
-%Fig. \ref{fig:spatiotemporal}B depicts the potential changes of the microelectrode between (a) and (b).
-
 Parameters that can be determined from the optical data -- such as the travel speed of chemical waves -- can also be calculated from the SECM spatiotemporal measurements.
 In case of stationary microelectrode, two of them would be necessary at a known distance from each other to calculate the travel speed.
 It could be calculated as the ratio of the distance between the electrodes, and the time it takes for the wave to get from the first microelectrode to the second.
 However, using the SECM, one microelectrode is sufficient because the tip can be repositioned to allow additional measurements of the same wave.
-%The individual waves are numbered in Fig. \ref{fig:spatiotemporal}A.
 For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
 The exact positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
 Based in this data, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
@@ -197,11 +168,9 @@ Table \ref{table:stats}. contains several parameters of the waves that were enco
 \label{table:stats}
 \centering
 \begin{tabular}{r c c c c c}
-% \# & t, s & E, mV & x, mm & \begin{tabular}{c}v, $\upmu$m/s\\ \begin{tabular}{c|c}1--3&1--2, 2--3\end{tabular}\end{tabular}\\
 Wave \# & t, s & E, mV & x, mm & v, $\upmu$m/s \\
  \hline
  \hline
-% 3&\begin{tabular}{c}47\\67\\80\end{tabular}&\begin{tabular}{c}957\\978\\977\end{tabular}&\begin{tabular}{c}1.4\\6.4\\8.6\end{tabular}&\begin{tabular}{c c}218.8 & \begin{tabular}{c}218.8\\128.8 \end{tabular} \end{tabular}\\
  3&\begin{tabular}{c}47\\67\\80\end{tabular}&\begin{tabular}{c}957\\978\\977\end{tabular}&\begin{tabular}{c}1.4\\6.4\\8.6\end{tabular}&218.8\\
  \hline
  6&\begin{tabular}{c}99\\114\\133.5\end{tabular}&\begin{tabular}{c}968\\975\\1027\end{tabular}&\begin{tabular}{c}1\\4.8\\7.6\end{tabular}&191.3\\
@@ -225,7 +194,6 @@ The travel speeds calculated are certainly not accurate, since in the measuremen
 
 It must be mentioned, that these travel speeds are not radial, but rather measured on a chord of the circular waves.
 Knowing that the angle at which the reaction has been filmed is 45 degrees, after determining the angle between the radius and the chord, the actual travel speed can be obtained.
-%Since the purpose of these measurements is to show 
 
 \def\s{0.5}
 \begin{figure}
@@ -233,149 +201,31 @@ Knowing that the angle at which the reaction has been filmed is 45 degrees, afte
 \centering
 \flushleft{\textbf{\large{A}}}
 \includegraphics[trim = 15mm 60mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
-%\vspace{1cm}
 \flushleft{\textbf{\large{B}}}
 \begin{tikzpicture}
   \begin{axis}[width=7cm, height=5cm, xlabel={x / cm},ylabel={time / s},zlabel={E / V}, zmin=0.9]
-    %\addplot3[surf, x filter/.code{\pgfmathparse{\pgfmathresults/10000}}] table {17101308_st_lines.txt};
     \addplot3[very thick, color=red] table {17101308_st_lines_back.txt};
-    %\addplot3[thick, color=blue] table {17101308_st_lines_there_zerox.txt};
-    %\addplot3[thick, color=red] table {17101308_st_lines_back_zerox.txt};
-    %\addplot3[color=blue] table {17101308_st_lines_there_base.txt};
     \addplot3[very thick, color=blue] table {17101308_st_lines_there.txt};
   \end{axis}
 \end{tikzpicture}
 \caption{(A) Electrochemical space-time plot overlayed on top of the corresponding optical one.
 The potential of the carbon fiber microelectrode is shown as a function of spatiotemporal coordinates.
 Redox indicator was ferroin.
+The measured redox potential corresponds to the ferroin/ferriin ration in the system.
 The optical spatiotemporal image was grayscaled to allow better visibility when overlaying the electrochemical data.
 The brighter stripes correspond to the oxidizing waves.
 (B) The second scan cycle.
 Blue line: forward scan, red line: backwards scan.
-%Note the shape of the peaks on the red curve, which is measured in the direction that is opposite to the chemical wave travel.
-%The elongated portion of these peaks where the potential is decreasing, is not due to 
 }
 \label{fig:spatiotemporal}
 \end{figure}
 
-%\def\s{0.5}
-%\def\left{70}
-%\def\bottom{120}
-%\def\right{50}
-%\def\top{30}
-%\begin{figure}
-%\centering
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{0.png}};
-%    \draw (3.8, 1) node {\textbf{a}};
-%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{right.png}};
-%    \draw (3.8, 1) node {a};
-%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%    \draw [purple] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1.png}};
-%    \draw (3.8, 1) node {\textbf{b}};
-%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2.png}};
-%    \draw (3.8, 1) node {\textbf{c}};
-%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{3.png}};
-%    \draw (3.8, 1) node {\textbf{d}};
-%    \draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%    \draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\caption{Frame grabs from the video that was recorded during the experiment.
-%(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
-%(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
-%Green dot: starting and finishing position of the scan cycle.
-%Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
-%In the images, the pin header that was holding the carbon fiber is visible above the green dot.
-%Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
-%On the left side the end of the double wall reference electrode is visible.}
-%\label{fig:grabs}
-%\end{figure}
-
-%\begin{tikzpicture}
-%  \begin{axis}
-%    \addplot3[colormap/viridis, surf, very thick] table {17101308_st_lines.txt};
-%    %\addplot3[color=black, surf, very thick] table {17101308_st_lines.txt};
-%  \end{axis}
-%\end{tikzpicture}
-
-
-%\def\s{0.5}
-%\def\left{240}
-%\def\bottom{240}
-%\def\right{150}
-%\def\top{50}
-%\begin{figure}
-%\centering
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{1988.png}};
-    %\draw (3.8, 1) node {\textbf{a}};
-    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2108.png}};
-    %\draw (3.8, 1) node {\textbf{b}};
-    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2357.png}};
-    %\draw (3.8, 1) node {\textbf{c}};
-    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{2477.png}};
-    %\draw (3.8, 1) node {\textbf{d}};
-    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\begin{tikzpicture}
-%    \draw (0, 0) node[inner sep=0] {\includegraphics[trim = \left mm \bottom mm \right mm \top mm, clip, width=\s\textwidth]{5351.png}};
-    %\draw (3.8, 1) node {\textbf{d}};
-    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
-%\end{tikzpicture}
-%\caption{Frame grabs from the video that was recorded during the experiment.
-%(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
-%(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
-%Green dot: starting and finishing position of the scan cycle.
-%Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
-%In the images, the pin header that was holding the carbon fiber is visible above the green dot.
-%Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
-%On the left side the end of the double wall reference electrode is visible.}
-%\label{fig:grabs}
-%\end{figure}
-
 \begin{figure}
 \centering
 \begin{tikzpicture}
-    %\draw (0, 0) node[inner sep=0] {\includegraphics[trim={2cm 0cm 2cm 0 }, clip,width=\s\textwidth]{grabs.png}};
     \draw (0, 0) node[inner sep=0] {\includegraphics[width=0.45\textwidth]{grabs.png}};
-    %\draw (3.8, 1) node {\textbf{a}};
-    %\draw [green] (-1.1,-0.55) node[anchor=south] {\textbf{\large{•}}};
-    %\draw [blue] (0.2,-0.55) node[anchor=south] {\textbf{\large{•}}};
 \end{tikzpicture}
 \caption{Frame grabs from the video that was recorded during the experiment.
-%(a)--(d): same instances in time as in Fig. \ref{fig:spatiotemporal}.
-%(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
-%Green dot: starting and finishing position of the scan cycle.
-%Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
 Numbers represent the order of the chemical waves, same as in figure \ref{fig:spatiotemporal}.
 (a)--(b) 2 seconds before and after the carbon fiber reaches wave \#3 while traveling in the same direction.
 (c)--(d) 2 seconds before and after the carbon fiber reaches wave \#3 while traveling in the opposite direction.
@@ -384,10 +234,16 @@ The green -- vertical -- line reperesents the \emph{y}-coordinate of the point w
 The blue -- horizontal -- line marks the scanline.
 Wave \#3 is marked by the black line.
 The pin header that was holding the carbon fiber is visible in the top portion of the images.
-%On the left side the end of the double junction reference electrode is visible.
 }
 \label{fig:grabs2}
 \end{figure}
+
+Figure \ref{fig:spatiotemporal}B. shows the second scan cycle.
+The forward and backward scans are similar, as an indication that the shape of the potential recording is independent of the scan direction.
+Both curves have a sharp peak, making the determination of wavelength and period time easier, compared to curves derived from 2D optical measurements such as in \cite{hess1985} and \cite{hess1990}.
+Another advantage of the potentiometric method is that it can reach a higher resolution than the optical methods.
+Nanometer sized potentiometric microsensors are now routinely prepared \cite{mirkin2010}.
+Efforts toward further miniaturization would make the potentiometric study of the BZ and other reaction-diffusion processes at the nano- and microscales more viable \cite{epstein2016}.
 
 \section{Conclusions}
 Potentiometry has been used to study the BZ reaction almost since its discovery.
@@ -403,7 +259,7 @@ With an appropriately small ion-selective microelectrode, bromide-ion activity c
 There are several extensive works on the use of such ion-selective electrodes in the study of the BZ and other oscillating reactions \cite{noszticzius1, noszticzius2}.
 A pH-sensitive antimony microelectrode with a less than 7 $\upmu$m diameter can be easily prepared.
 It could be used as an indicator microprobe to map pH in pH-regulated oscillators \cite{orban}.
-This could provide an opportunity to further advance our understanding of the BZ and other oscillating reactions.
+%This could provide an opportunity to further advance our understanding of the BZ and other oscillating reactions.
 
 \section*{Acknowledgements}
 The work was financially supported by the National Research, Development and Innovation Office (Budapest, Hungary) under grant K125244.
@@ -421,7 +277,6 @@ András Kiss is thankful for the inspiring discussions with Gyula Hoffmann about
 
 \bibitem{fkn2}Field, Richard J., Endre Kőrös, and Richard M. Noyes. "Oscillations in chemical systems. II. Thorough analysis of temporal oscillation in the bromate-cerium-malonic acid system." Journal of the American Chemical Society 94.25 (1972): 8649-8664.
 
-%\bibitem{hess1} Nagy-Ungvarai, Zs, et al. "Experimental study of spiral waves in the cerium-catalyzed Belousov-Zhabotinskii reaction." Journal of physical chemistry 94.24 (1990): 8677-8682.
 
 \bibitem{hess2}Nagy-Ungvárai, Zs, H. Baumgärtl, and B. Hess. "Electrochemical detection of pattern formation in the Belousov-Zhabotinskii reaction." Chemical Physics Letters 168.6 (1990): 539-542. 
 
@@ -430,6 +285,14 @@ András Kiss is thankful for the inspiring discussions with Gyula Hoffmann about
 \bibitem{winfree}Winfree, Arthur T. The geometry of biological time. Vol. 12. Springer Science \& Business Media, 2001.
 
 \bibitem{phd}András, Kiss. "Recent Advances in Potenciometric Scanning Electrochemical Microscopy." PhD Dissertation, University of Pécs, (2017).
+
+\bibitem{hess1985}Muller, Stefan C., Theo Plesser, and Benno Hess. "The structure of the core of the spiral wave in the Belousov-Zhabotinskii reaction." Science 230 (1985): 661-664.
+
+\bibitem{hess1990} Nagy-Ungvarai, Zs, et al. "Experimental study of spiral waves in the cerium-catalyzed Belousov-Zhabotinskii reaction." Journal of physical chemistry 94.24 (1990): 8677-8682.
+
+\bibitem{mirkin2010}Elsamadisi, Pansy, et al. "Polished nanopipets: New probes for high-resolution scanning electrochemical microscopy." Analytical chemistry 83.3 (2010): 671-673.
+
+\bibitem{epstein2016}Epstein, Irving R., and Bing Xu. "Reaction-diffusion processes at the nano-and microscales." Nature nanotechnology 11.4 (2016): 312-319.
 
 \bibitem{noszticzius1}Noszticzius, Z., E. Noszticzius, and Z. A. Schelly. "Use of ion-selective electrodes for monitoring oscillating reactions. 1. Potential response of the silver halide membrane electrodes to hypohalous acids." Journal of the American Chemical Society 104.23 (1982): 6194-6199.
 
