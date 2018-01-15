@@ -14,6 +14,13 @@
 \usepackage{float}
 \usepackage{indentfirst}
 \parskip=0pt
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+
 
 \begin{document}
 
@@ -40,7 +47,9 @@ Unfortunately, these methods will influence a distributed system, since they req
 The electrodes -- depending on their size -- will influence the formation of spatial patterns, especially if one of them moves, for instance when used as a measuring tip in scanning electrochemical microscopy (SECM).
 %This poses no problem when the studied reaction is stirred, but in a distributed system the electrodes -- depending on their size -- will influence the formation of spatial patterns, especially if one of them moves, for instance when used as a measuring tip in scanning electrochemical microscopy (SECM).
 
-In this paper we show that, using a sufficiently small indicator microelectrode, these effects can be minimized to a point where no evidence of any disturbance to the reaction can be observed.
+The aim of this paper is to show that the advantages of optical and the electrochemical methods can be combined.
+That is, patially resolved electrochamical data can be gathered of certain species in the reaction.
+Furthermore, in this paper we show that, using a sufficiently small indicator microelectrode, these effects can be minimized to a point where no evidence of any disturbance to the reaction can be observed.
 The first spatiotemporal SECM image about a distributed Belousov-Zhabotinsky reaction is shown, overlayed on top of the corresponding optical spatiotemporal image.
 %It was achieved by using a fine ($d_o=7\, \upmu$m) carbon microelectrode with $\leq 1\, \upmu$m immersion depth.
 
@@ -51,13 +60,14 @@ The first spatiotemporal SECM image about a distributed Belousov-Zhabotinsky rea
 \end{frontmatter}
 
 \section{Introduction}
+The Belousov-Zhabotinsky (BZ) oscillating reaction is a good model for pattern formation, but it’s an interesting phenomenon in its own right.
 In recent years, great effort has been made to elucidate the mechanism and the emerging patterns of oscillating reactions by applying new methods.
-For instance, tomography is among the newest of additions to these methods, which helped to reveal the structure of three-dimensional Turing patterns in a Belousov-Zhabotinsky (BZ) reaction \cite{bansagi2011}.
-The original discovery by Belousov was based also on optical observation; in the mixture of potassium bromate, malonic acid, citric acid and cerium(IV) sulfate in acidic conditions the ratio of cerium(III) and cerium(IV) ions oscillated, thus alternated its color between transparent and yellow.
+For instance, tomography is among the newest of additions to these methods, which helped to reveal the structure of three-dimensional Turing patterns in a the BZ reaction \cite{bansagi2011}.
+The original discovery by Belousov \cite{belousov} was also based on optical observation; in the mixture of potassium bromate, malonic acid, citric acid and cerium(IV) sulfate in acidic conditions the ratio of cerium(III) and cerium(IV) ions oscillated, thus alternated its color between transparent and yellow.
 Data obtained from a basic photographic method was enough for Zhabotinsky and Zaikin to construct an initial model of the reaction \cite{zaikin1970}.
 However -- as another example of development by applying new methods -- a great deal of progress was made when Richard Noyes, Richard Field and Endre Kőrös measured the redox potential and bromide-ion activiy in a stirred BZ reaction \cite{fkn1}.
-They were able to construct a more sophisticated model than the previous ones.
-In a more comprehensive publication, they established the \emph{,,FKN--mechanism''} \cite{fkn2}.
+They were able to construct a more sophisticated model than the previous ones, and established the \emph{,,FKN--mechanism''} \cite{fkn2}.
+Their model is based almost exclusively on data obtained directly from potentiometric measurements, or thermodynamic quantites derived from the electrochemical data.
 
 %New discoveries usually coincide with the application of new methods, as the example of 
 
@@ -98,7 +108,7 @@ The thickness of the reaction mixture was about 0.9 mm.
 At this stage, the spontaneous formation of spatial patterns started.
 
 \paragraph{Scanning Electrochemical Microscopy} A double junction Ag/AgCl/3 M KCl/0.1 M CH$_3$COOLi reference electrode was placed inside the reaction mixture, close to the edge of the Petri dish.
-Then, a $d_o=7\, \upmu$m carbon microelectrode was submersed less than 1 $\upmu$m into the reaction mixture (Figure \ref{fig:setup}.).
+Then, a $d_o=7\, \upmu$m carbon microelectrode was submersed less than 1 $\upmu$m into the reaction mixture (figure \ref{fig:setup}.).
 To accomplish it, the tip of the microelectrode was brought to contact with the reaction mixture by approaching the surface in 100 $\upmu$m increments using the Z axis of the SECM.
 During this step, the potential of the microelectrode was continuously monitored.
 When a sudden jump in the potential was observed -- as a consequence of the microelectrode making contact with the reaction mixture --, the microelectrode was retracted by 100 $\upmu$m.
@@ -182,7 +192,7 @@ However, using the SECM, one microelectrode is sufficient because the tip can be
 For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
 The exact positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
 Based in this data, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
-Table \ref{table:stats} contains several parameters of the waves that were encountered multiple times by the microelectrode. 
+Table \ref{table:stats}. contains several parameters of the waves that were encountered multiple times by the microelectrode. 
 
 \begin{table}
 \caption{Chemical wave encounters by the microelectrode during the scanning process.}
@@ -190,10 +200,12 @@ Table \ref{table:stats} contains several parameters of the waves that were encou
 \label{table:stats}
 \centering
 \begin{tabular}{r c c c c c}
- \# & t, s & E, mV & x, mm & v, $\upmu$m/s\\
+% \# & t, s & E, mV & x, mm & \begin{tabular}{c}v, $\upmu$m/s\\ \begin{tabular}{c|c}1--3&1--2, 2--3\end{tabular}\end{tabular}\\
+Wave \# & t, s & E, mV & x, mm & v, $\upmu$m/s \\
  \hline
  \hline
- 3&\begin{tabular}{c}47\\67\\80\end{tabular}&\begin{tabular}{c}957\\978\\977\end{tabular}&\begin{tabular}{c}1.4\\6.4\\6.8\end{tabular}&\begin{tabular}{c c}218.8 & \begin{tabular}{c}218.8\\128.8 \end{tabular} \end{tabular}\\
+% 3&\begin{tabular}{c}47\\67\\80\end{tabular}&\begin{tabular}{c}957\\978\\977\end{tabular}&\begin{tabular}{c}1.4\\6.4\\8.6\end{tabular}&\begin{tabular}{c c}218.8 & \begin{tabular}{c}218.8\\128.8 \end{tabular} \end{tabular}\\
+ 3&\begin{tabular}{c}47\\67\\80\end{tabular}&\begin{tabular}{c}957\\978\\977\end{tabular}&\begin{tabular}{c}1.4\\6.4\\8.6\end{tabular}&218.8\\
  \hline
  6&\begin{tabular}{c}99\\114\\133.5\end{tabular}&\begin{tabular}{c}968\\975\\1027\end{tabular}&\begin{tabular}{c}1\\4.8\\7.6\end{tabular}&191.3\\
  \hline
@@ -367,6 +379,7 @@ Blue line: forward scan, red line: backwards scan.
 %(a) t = 0 s (before the first scan cycle), (b) t = 51 s (after the first scan cycle), (c) t = 102 s (after the second scan cycle), (d) t = 153 s (after the third scan cycle).
 %Green dot: starting and finishing position of the scan cycle.
 %Blue dot: finishing position of the odd numbered scanlines and starting position of the even numbered scanlines.
+Numbers represent the order of the chemical waves, same as in figure \ref{fig:spatiotemporal}.
 (a)--(b) 2 seconds before and after the carbon fiber reaches wave \#3 while traveling in the same direction.
 (c)--(d) 2 seconds before and after the carbon fiber reaches wave \#3 while traveling in the opposite direction.
 Due to its small size, the carbon fiber itself, and the point where it touches the surface of the reaction mixture is invisible in these images.
