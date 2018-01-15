@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.9)  13 JAN 2018 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  15 JAN 2018 11:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1327,10 +1327,10 @@ dou-ble
  []
 
 Package epstopdf Info: Source file: <setup.eps>
-(epstopdf)                    date: 2018-01-09 15:46:32
+(epstopdf)                    date: 2018-01-10 08:09:59
 (epstopdf)                    size: 3368719 bytes
 (epstopdf)             Output file: <setup-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-01-12 17:04:45
+(epstopdf)                    date: 2018-01-12 11:47:17
 (epstopdf)                    size: 358857 bytes
 (epstopdf)             Command: <epstopdf --outfile=setup-eps-converted-to.pdf 
 setup.eps>
@@ -1350,40 +1350,37 @@ Package pdftex.def Info: setup_photo.jpg used on input line 132.
 (pdftex.def)             Requested size: 210.59857pt x 156.05064pt.
 
 [2]
-Overfull \hbox (6.29608pt too wide) in paragraph at lines 187--201
+Overfull \hbox (14.72818pt too wide) in paragraph at lines 192--206
  [][] 
  []
 
 [3 <./setup-eps-converted-to.pdf> <./setup_photo.jpg>]
 Package epstopdf Info: Source file: <spacetime.eps>
-(epstopdf)                    date: 2018-01-13 19:59:52
+(epstopdf)                    date: 2018-01-15 11:14:55
 (epstopdf)                    size: 11608916 bytes
 (epstopdf)             Output file: <spacetime-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-01-13 19:59:55
+(epstopdf)                    date: 2018-01-15 11:14:59
 (epstopdf)                    size: 422983 bytes
 (epstopdf)             Command: <epstopdf --outfile=spacetime-eps-converted-to.
 pdf spacetime.eps>
-(epstopdf)             \includegraphics on input line 218.
+(epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 
 <spacetime-eps-converted-to.pdf, id=47, 505.89pt x 722.7pt>
 File: spacetime-eps-converted-to.pdf Graphic file (type pdf)
 
 <use spacetime-eps-converted-to.pdf>
-Package pdftex.def Info: spacetime-eps-converted-to.pdf used on input line 218.
+Package pdftex.def Info: spacetime-eps-converted-to.pdf used on input line 226.
 
 (pdftex.def)             Requested size: 234.0pt x 235.72575pt.
 
-Overfull \hbox (13.72575pt too wide) in paragraph at lines 218--236
- [][] 
+Overfull \hbox (13.72575pt too wide) in paragraph at lines 225--228
+[]  
  []
 
 ===== Image 'bz-figure0' is up-to-date. ======
+===== Image 'bz-figure1' is up-to-date. ======
 [4 <./spacetime-eps-converted-to.pdf> <./bz-figure0.pdf
-
-pdfTeX warning: pdflatex (file ./bz-figure0.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
-
 
 pdfTeX warning: pdflatex (file ./bz-figure0.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ColorSpace', type <null>); ignored.
@@ -1396,46 +1393,58 @@ resource which is no dict (key 'Pattern', type <null>); ignored.
 pdfTeX warning: pdflatex (file ./bz-figure0.pdf): PDF inclusion: invalid other 
 resource which is no dict (key 'ExtGState', type <null>); ignored.
 >]
-Underfull \hbox (badness 1062) in paragraph at lines 396--397
+Underfull \hbox (badness 1062) in paragraph at lines 414--415
 []\T1/aer/m/n/8 Nagy-Ungvárai, Zsuzsanna, and Benno Hess. "Con-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
-[5
+[5 <./bz-figure1.pdf
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+pdfTeX warning: pdflatex (file ./bz-figure1.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ColorSpace', type <null>); ignored.
+
+
+pdfTeX warning: pdflatex (file ./bz-figure1.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'Pattern', type <null>); ignored.
+
+
+pdfTeX warning: pdflatex (file ./bz-figure1.pdf): PDF inclusion: invalid other 
+resource which is no dict (key 'ExtGState', type <null>); ignored.
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
  (./bz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 401.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 419.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
  ) 
 Here is how much of TeX's memory you used:
- 27755 strings out of 493013
- 660811 string characters out of 6135683
- 885464 words of memory out of 5000000
- 30694 multiletter control sequences out of 15000+600000
- 33992 words of font info for 78 fonts, out of 8000000 for 9000
+ 27778 strings out of 493013
+ 661009 string characters out of 6135682
+ 886463 words of memory out of 5000000
+ 30703 multiletter control sequences out of 15000+600000
+ 41114 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,96p,900b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,20n,96p,850b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on bz.pdf (5 pages, 2846227 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on bz.pdf (5 pages, 2869622 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 32 words of extra memory for PDF output out of 10000 (max. 10000000)
 
