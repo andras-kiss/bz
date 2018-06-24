@@ -24,7 +24,7 @@
 
 \begin{frontmatter}
 
-\title{Potentiometric Scanning Electrochemical Microscopic Mapping of the Distributed Belousov-Zhabotinsky Oscillating Reaction}
+\title{Scanning Electrochemical Microscopic Mapping of Pattern Formation in the Belousov-Zhabotinsky Reaction}
 \cortext[cor]{Corresponding author}
 \author[akiss]{András Kiss\corref{cor}}
 \ead{akiss@gamma.ttk.pte.hu}
@@ -36,16 +36,21 @@
 
 \begin{abstract}
 
-Patterns emerging in a distributed Belousov-Zhabotinsky reaction are usually studied with optical methods.
-However, these methods provide only approximate information about the oxidation state of an indicator, and they cannot be applied when there is no indicator dye or other colored component whose concentration is oscillating.
-To gather additional information about the processes involved in the reaction, electrochemical methods have been used by many research groups.
-Unfortunately, these methods will influence a distributed system, since they require electrodes to be placed inside the reaction mixture.
-The electrodes -- depending on their size -- will influence the formation of spatial patterns, especially if one of them moves, for instance when used as a measuring tip in scanning electrochemical microscopy (SECM).
+Redox potential was mapped in a quasi--2D Belousov--Zhabotinsky reaction using scanning electrochemical microscopy.
+An uninsulated carbon fiber with a diameter of 7 $\upmu$m and an immersion depth of less than 1 $\upmu$m was used to ensure than the scanning tip does not exceed the $\approx$ 20 $\upmu$m critical radius of wave propagation in any direction.
+The first potentiometric scanning electrochemical microscopic image about the distributed Belousov--Zhabotinsky reaction is presented. 
 
-The aim of this paper is to show that the advantages of optical and electrochemical methods can be combined.
-That is, spatially resolved electrochemical data can be gathered of certain species in the reaction.
-Furthermore, in this paper we show that, using a sufficiently small indicator microelectrode, convective effects can be minimized to a point where no evidence of any disturbance by the moving microprobe to the reaction can be observed.
-The first spatiotemporal SECM image about a distributed Belousov-Zhabotinsky reaction is shown, overlayed on top of the corresponding optical spatiotemporal image.
+
+%Patterns emerging in a distributed Belousov-Zhabotinsky reaction are usually studied with optical methods.
+%However, these methods provide only approximate information about the oxidation state of an indicator, and they cannot be applied when there is no indicator dye or other colored component whose concentration is oscillating.
+%To gather additional information about the processes involved in the reaction, electrochemical methods have been used by many research groups.
+%Unfortunately, these methods will influence a distributed system, since they require electrodes to be placed inside the reaction mixture.
+%The electrodes -- depending on their size -- will influence the formation of spatial patterns, especially if one of them moves, for instance when used as a measuring tip in scanning electrochemical microscopy (SECM).
+
+%The aim of this paper is to show that the advantages of optical and electrochemical methods can be combined.
+%That is, spatially resolved electrochemical data can be gathered of certain species in the reaction.
+%Furthermore, in this paper we show that, using a sufficiently small indicator microelectrode, convective effects can be minimized to a point where no evidence of any disturbance by the moving microprobe to the reaction can be observed.
+%The first spatiotemporal SECM image about a distributed Belousov-Zhabotinsky reaction is shown, overlayed on top of the corresponding optical spatiotemporal image.
 
 \end{abstract}
 \begin{keyword}
@@ -54,32 +59,53 @@ The first spatiotemporal SECM image about a distributed Belousov-Zhabotinsky rea
 \end{frontmatter}
 
 \section{Introduction}
-The Belousov-Zhabotinsky (BZ) oscillating reaction is a good model for pattern formation, but it’s an interesting phenomenon in its own right.
-In recent years, great effort has been made to elucidate the mechanism and the emerging patterns of oscillating reactions by applying new methods.
-For instance, tomography is among the newest of additions to these methods, which helped to reveal the structure of three-dimensional Turing patterns in a the BZ reaction \cite{bansagi2011}.
-The original discovery by Belousov \cite{belousov} was also based on optical observation; in the mixture of potassium bromate, malonic acid, citric acid and cerium(IV) sulfate in acidic conditions the ratio of cerium(III) and cerium(IV) ions oscillated, thus alternated its color between transparent and yellow.
-Data obtained from a basic photographic method was enough for Zhabotinsky and Zaikin to make initial observations about the reaction \cite{zaikin1970}.
-However -- as another example of development by applying new methods -- a great deal of progress was made when Richard Noyes, Richard Field and Endre Kőrös measured the redox potential and bromide-ion activiy in a stirred BZ reaction \cite{fkn1}.
-They were able to construct a sophisticated model \cite{fkn2}.
-Their model is based almost exclusively on data obtained directly from potentiometric measurements, or thermodynamic quantites derived from the electrochemical data.
+The Belousov-Zhabotinsky (BZ) oscillating reaction and other reaction--diffusion systems are good models for biological pattern formation \cite{kondo}, but they are interesting phenomena in their own right.
+During the BZ--reaction, the concentration of several species undergo oscillation.
+Among these there are a few that can be measured potentiometrically with high selectivity.
+For instance, bromide--ion concentration can be measured by an appropriate ion--selective electrode, while the potential of a redox--electrode depends mostly on the ratio of the oxidized and reduced catalyst.
+Most of the early development in understanding the oscillating nature of the reaction was based on electrochemical data.
+The \emph{FKN} (Field--Kőrös--Noyes) base mechanism for temporal oscillation was established using data obtained by monitoring the [Ce(IV)]/[Ce(III)] ratio with a tungsten electrode, and the bromide--ion concentration with an ion--selective electrode \cite{fkn1, fkn2, fkn4}.
+However, the application of the model to explain spatial oscillations was not straightforward.
+It required spatially resolved images, which the electrochemical methods could not provide.
+By using images obtained with a simple photographic method, the model was applied to account for spatial oscillations as well \cite{5}.
+Not suprisingly, even up to this day, to obtain spatial information about the BZ--reaction and other chemical oscillators, 2D spectrophotometry seems like an obvious choice, although recently 3D tomography was used to map Turing--structures in three dimensions \cite{bansagi}.
+In some cases however, the application of optical measuring techniques can be quite problematic for multiple reasons.
+For example, the absorption spectra of several of the measured species might be overlapping, or their specific absorbance might be too low, or hard to determine experimentally.
+CO$_2$ bubbles evolved in the BZ--reaction could affect the photometric measurement.
+Electroanalytical methods do not suffer from these problems.
+To map certain species and benefit from the high selectivity of the electroanalytical methods at the same time, miniaturized versions of the above mentioned electrodes were used to record temporal changes in potential at a discrete place \cite{hess2}.
+Then, knowing the traveling speed of the chemical waves, the potential changes were directly converted to spatial profiles \cite{hess3}.
+That method assumes a constant travelling speed and ideal dispersion relationship.
+Furthermore it cannot be used to map complex oscillatory or stationary patterns formed in the BZ--reaction or other oscillating systems.
 
-Potentiometry is an ideal method to study the BZ reaction, allowing the simultaneous detection of several ionic species as well as the redox potential.
-Furthermore, it's a passive technique, it does not consume or produce the species of the reaction.
-However, conventional electrodes cannot be used to record the potential changes in distributed systems, because the patterns emerge on a much smaller scale, in the millimeter range, while the electrodes used by Field, Kőrös and Noyes were in the centimeter range.
-Also, the large electrodes would disrupt the propagation of the chemical waves.
-For this purpose, potentiometric microelectrodes were used \cite{hess2, hess3}.
-In those experiments, the authors were able to record the same parameters, but on a microscale, in a distributed BZ reaction, using stationary microelectrodes.
-Then, they used a transfer function to interpret the temporal patterns as spatial ones.
+%In recent years, great effort has been made to elucidate the mechanism and the emerging patterns of oscillating reactions by applying new methods.
+%For instance, tomography is among the newest of additions to these methods, which helped to reveal the structure of three-dimensional Turing patterns in a the BZ reaction \cite{bansagi2011}.
+%The original discovery by Belousov \cite{belousov} was also based on optical observation; in the mixture of potassium bromate, malonic acid, citric acid and cerium(IV) sulfate in acidic conditions the ratio of cerium(III) and cerium(IV) ions oscillated, thus alternated its color between transparent and yellow.
+%Data obtained from a basic photographic method was enough for Zhabotinsky and Zaikin to make initial observations about the reaction \cite{zaikin1970}.
+%However -- as another example of development by applying new methods -- a great deal of progress was made when Richard Noyes, Richard Field and Endre Kőrös measured the redox potential and bromide-ion activiy in a stirred BZ reaction \cite{fkn1}.
+%They were able to construct a sophisticated model \cite{fkn2}.
+%Their model is based almost exclusively on data obtained directly from potentiometric measurements, or thermodynamic quantites derived from the electrochemical data.
+
+%Potentiometry is an ideal method to study the BZ reaction, allowing the simultaneous detection of several ionic species as well as the redox potential.
+%Furthermore, it's a passive technique, it does not consume or produce the species of the reaction.
+%However, conventional electrodes cannot be used to record the potential changes in distributed systems, because the patterns emerge on a much smaller scale, in the millimeter range, while the electrodes used by Field, Kőrös and Noyes were in the centimeter range.
+%Also, the large electrodes would disrupt the propagation of the chemical waves.
+%For this purpose, potentiometric microelectrodes were used \cite{hess2, hess3}.
+%In those experiments, the authors were able to record the same parameters, but on a microscale, in a distributed BZ reaction, using stationary microelectrodes.
+%Then, they used a transfer function to interpret the temporal patterns as spatial ones.
 It would be desirable to record real spatial patterns in a distributed system using similar potentiometric sensors.
 Scanning electrochemical microscopy (SECM) seems like an ideal technique for this purpose. 
-However, even the microelectrodes that are used in \cite{hess2, hess3} are not small enough to avoid interfering with the measured system.
-Scanning with those electrodes would certainly cause enough convection to alter the propagation of the waves in the patterns.
+SECM has already been used to investigate the BZ--reaction, although not to obtain spatially resolved chemical data.
+Instead, it was used to study the communication of the chemical information in the BZ--reaction between two immiscible electrolyte solutions \cite{} and the behaviour of the BZ--reaction in confined conditions \cite{}. 
+%However, even the microelectrodes that are used in \cite{hess2, hess3} are not small enough to avoid interfering with the measured system.
+%Scanning with those electrodes would certainly cause enough convection to alter the propagation of the waves in the patterns.
 
-The purpose of this paper is to show that using SECM, spatially resolved images of the redox potential in the BZ reaction can be obtained.
+The goal of this paper is to show that using SECM, spatially resolved images of the redox potential in the BZ reaction can be obtained.
 We report a way to perform SECM scanning in distributed BZ reactions without causing any noticeable change in the reaction.
 This was achieved by using a $d_o=$ 7 $\upmu$m carbon fiber microelectrode without any insulation.
 Only a small portion (less than 1 $\upmu$m) of the fiber was submersed into the reaction mixture.
-Redox potential was mapped in the spatio-temporal plane, and was overlayed on the traditional optical image to prove that the recorded potential changes correspond to the chemical waves made visible by ferroin redox indicator.
+This way, the submersed part of the electrode was smaller that the critical radius of the wave propagation \cite{critical} in every direction, and it didn't influence the reaction.
+Redox potential was mapped in the spatio-temporal plane, and was overlayed on top of the traditional optical image to prove that the recorded potential changes correspond to the chemical waves made visible by ferroin redox indicator.
 
 \section{Materials and methods}
 \paragraph{The Belousov-Zhabotinsky reaction} To start the reaction, the method that is described in \cite{winfree} by A. T. Winfree was used.
@@ -211,7 +237,7 @@ Knowing that the angle at which the reaction has been filmed is 45 degrees, afte
 \caption{(A) Electrochemical space-time plot overlayed on top of the corresponding optical one.
 The potential of the carbon fiber microelectrode is shown as a function of spatiotemporal coordinates.
 Redox indicator was ferroin.
-The measured redox potential corresponds to the ferroin/ferriin ration in the system.
+The measured redox potential corresponds to the ferroin/ferriin ratio in the system.
 The optical spatiotemporal image was grayscaled to allow better visibility when overlaying the electrochemical data.
 The brighter stripes correspond to the oxidizing waves.
 (B) The second scan cycle.
@@ -250,10 +276,10 @@ Potentiometry has been used to study the BZ reaction almost since its discovery.
 Compared to the optical methods, it allowed farther reaching conclusions to be made by several research groups.
 There is however one area where electrochemical investigations certainly lacked; they couldn't provide spatial information, which 2D photometry or tomography could easily do.
 In this paper, we made an attempt to combine the advantages of the two techniques.
-In its current form there are several limitations of the technique, for instance, the relatively low density of the electrochemical data.
-Further development can be expected.
+In its current form the technique has several limitations, for instance, the relatively low density of the electrochemical data.
+%Further development can be expected.
 
-By using potentiometric SECM with a sufficiently small microelectrode, the redox potential can be spatially resolved in a quasy-2D BZ reaction, without influencing the reaction.
+Using potentiometric SECM with a sufficiently small microelectrode, the redox potential can be spatially resolved in a quasy-2D BZ reaction, without influencing the reaction.
 By substituting the indicator tip or combining multiple ones, other parameters can be measured, possibly simultaneously.
 With an appropriately small ion-selective microelectrode, bromide-ion activity could be mapped in the BZ reaction.
 There are several extensive works on the use of such ion-selective electrodes in the study of the BZ and other oscillating reactions \cite{noszticzius1, noszticzius2}.
