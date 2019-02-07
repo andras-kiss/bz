@@ -107,8 +107,8 @@ Redox potential was mapped in the spatio-temporal plane, and was overlayed on to
 
 \section{Materials and methods}
 \paragraph{The Belousov-Zhabotinsky reaction} To start the reaction, the method that is described in \cite{winfree2001geometry} by A. T. Winfree was used.
-Solution ''A,, was prepared by adding 2 ml of concentrated sulfuric acid and 5 g sodium bromate to 67 ml water.
-Solution ,,B'' was 1 g malonic acid dissolved in 10 ml of water, solution ,,C'' was 1 g sodium bromate dissolved in 10 ml of water.
+Solution ,,A'' was prepared by adding 2 ml of concentrated sulfuric acid and 5 g sodium bromate to 67 ml water.
+Solution ,,B'' was 1 g malonic acid dissolved in 10 ml of water, solution ,,C'' was 1 g sodium bromide dissolved in 10 ml of water.
 2 ml of ,,A'', 0.333 ml of ,,B'' and 0.166 ml ,,C'' was added to a small Petri dish ($d=5 \,$cm).
 After the orange color of bromine vanished, 0.333 ml of 25 mM phenantroline ferrous sulfate was added, and the reaction mixture was stirred with a glass rod for a few seconds.
 The thickness of the reaction mixture was about 0.9 mm.
@@ -175,13 +175,13 @@ Lighter shade of gray means a higher ferriin/ferroin  ratio.
 The measured redox potential represents the [Fe$^{2+}$]/[Fe$^{3+}$]  concentration ratio in the reaction, a relationship that is described by the Nernst-equation:
 
 \begin{equation}
-E = E^\theta - \frac{RT}{2F}\ln [Fe^{2+}] -  \frac{RT}{3F}\ln [Fe^{3+}]
+	E = E^\theta - \frac{RT}{F}\ln \frac{[Fe^{2+}]}{[Fe^{3+}]}
 \end{equation}
 
 A very good correlation can be observed between the changes of the potential of the carbon fiber microelectrode and the propagation of the oxidizing chemical waves that is visible in the optical image.
 Fig. \ref{fig:grabs2}. shows the encounter of the moving microelectrode with wave \#3.
 There is no evidence of any convective disturbance caused by the movement of the microelectrode.
-This is important, because the BZ reaction is very sensitive to external influences, and it wouldn't be possible to properly observe it with a technique that would influence the reaction.
+This is important, because the BZ reaction is very sensitive to external influences, and it wouldn't be possible to properly observe it with a technique that significantly influences the reaction.
 It seems like the 7 $\upmu$m microelectrode diameter is small enough that the convective effect is alleviated by diffusion to such an extent, that the reaction behaves as if the microelectrode wasn't there.
 
 Parameters that can be determined from the optical data -- such as the travel speed of chemical waves -- can also be calculated from the SECM spatiotemporal measurements.
@@ -190,7 +190,7 @@ It could be calculated as the ratio of the distance between the electrodes, and 
 However, using the SECM, one microelectrode is sufficient because the tip can be repositioned to allow additional measurements of the same wave.
 For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
 The positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
-Based on this data, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
+Based on these coordinates, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
 Table \ref{table:stats}. contains several parameters of the waves that were encountered multiple times by the microelectrode. 
 
 \begin{table}
@@ -287,14 +287,14 @@ In its current form the technique has several limitations, for instance, the rel
 Using potentiometric SECM with a sufficiently small microelectrode, the redox potential can be spatially resolved in a quasy-2D BZ reaction, without influencing the reaction.
 By substituting the indicator tip or combining multiple ones, other parameters can be measured, possibly simultaneously.
 With an appropriately small ion-selective microelectrode, it would be possible to map the bromide-ion activity in the BZ reaction.
-There are several extensive works on the use of such ion-selective electrodes in the study of the BZ and other oscillating reactions \cite{noszticzius1982use, noszticzius1983use}.
+There are several extensive works on the use of such ion-selective electrodes in the study of the stirred BZ and other oscillating reactions \cite{noszticzius1982use, noszticzius1983use}.
 A pH-sensitive antimony microelectrode with a less than 7 $\upmu$m diameter can be easily prepared.
 It would be possible to be used as an indicator microprobe to map pH in pH-regulated oscillators \cite{orban2015ph}.
 %This could provide an opportunity to further advance our understanding of the BZ and other oscillating reactions.
 
 \section*{Acknowledgements}
 The work was financially supported by the National Research, Development and Innovation Office (Budapest, Hungary) under grant K125244.
-András Kiss is thankful for the inspiring discussions with Gyula Hoffmann about pattern formation.
+%András Kiss is thankful for the inspiring discussions with Gyula Hoffmann about pattern formation.
 
 \bibliography{bz}{}
 \bibliographystyle{unsrt}
