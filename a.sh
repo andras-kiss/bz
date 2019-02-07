@@ -8,6 +8,7 @@ gnuplot plot
 #done
 
 pdflatex -shell-escape bz.tex
+bibtex bz
 pdflatex -shell-escape bz.tex
 pdflatex -shell-escape bz.tex
 

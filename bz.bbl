@@ -1,0 +1,131 @@
+\begin{thebibliography}{10}
+
+\bibitem{kondo2010reaction}
+Shigeru Kondo and Takashi Miura.
+\newblock Reaction-diffusion model as a framework for understanding biological
+  pattern formation.
+\newblock {\em Science}, 329(5999):1616--1620, 2010.
+
+\bibitem{noyes1972oscillations}
+Richard~M Noyes, Richard Field, and Endre Kőrös.
+\newblock Oscillations in chemical systems. {I}. {D}etailed mechanism in a
+  system showing temporal oscillations.
+\newblock {\em Journal of the American Chemical Society}, 94(4):1394--1395,
+  1972.
+
+\bibitem{field1972oscillations}
+Richard~J Field, Endre Kőrös, and Richard~M Noyes.
+\newblock Oscillations in chemical systems. {II}. thorough analysis of temporal
+  oscillation in the bromate-cerium-malonic acid system.
+\newblock {\em Journal of the American Chemical Society}, 94(25):8649--8664,
+  1972.
+
+\bibitem{field1974oscillationsIV}
+Richard~J Field and Richard~M Noyes.
+\newblock Oscillations in chemical systems. {IV}. {L}imit cycle behavior in a
+  model of a real chemical reaction.
+\newblock {\em The Journal of Chemical Physics}, 60(5):1877--1884, 1974.
+
+\bibitem{field1974oscillationsV}
+Richard~J Field and Richard~M Noyes.
+\newblock Oscillations in chemical systems. v. quantitative explanation of band
+  migration in the belousov-zhabotinskii reaction.
+\newblock {\em Journal of the American Chemical Society}, 96(7):2001--2006,
+  1974.
+
+\bibitem{bansagi2011tomography}
+Tam{\'a}s B{\'a}ns{\'a}gi, Vladimir~K Vanag, and Irving~R Epstein.
+\newblock Tomography of reaction-diffusion microemulsions reveals
+  three-dimensional {T}uring patterns.
+\newblock {\em Science}, 331(6022):1309--1312, 2011.
+
+\bibitem{nagy1990electrochemical}
+Zs~Nagy-Ungvarai, H~Baumg{\"a}rtl, and B~Hess.
+\newblock Electrochemical detection of pattern formation in the
+  belousov-zhabotinskii reaction.
+\newblock {\em Chemical Physics Letters}, 168(6):539--542, 1990.
+
+\bibitem{nagy1991control}
+Zsuzsanna Nagy-Ungvárai and Benno Hess.
+\newblock Control of dynamic pattern formation in the {B}elousov-{Z}habotinsky
+  reaction.
+\newblock {\em Physica D: Nonlinear Phenomena}, 49(1-2):33--39, 1991.
+
+\bibitem{tomasi2014chemical}
+Rapha{\"e}l Tomasi, Jean-Marc No{\"e}l, Aymen Zenati, Sandra Ristori, Federico
+  Rossi, Val{\'e}rie Cabuil, Fr{\'e}d{\'e}ric Kanoufi, and Ali Abou-Hassan.
+\newblock Chemical communication between liposomes encapsulating a chemical
+  oscillatory reaction.
+\newblock {\em Chemical Science}, 5(5):1854--1859, 2014.
+
+\bibitem{stockmann2015scanning}
+T~Jane Stockmann, Jean-Marc No{\"e}l, Sandra Ristori, Catherine Combellas, Ali
+  Abou-Hassan, Federico Rossi, and Fr{\'e}d{\'e}ric Kanoufi.
+\newblock Scanning electrochemical microscopy of belousov--zhabotinsky
+  reaction: How confined oscillations reveal short lived radicals and
+  auto-catalytic species.
+\newblock {\em Analytical chemistry}, 87(19):9621--9630, 2015.
+
+\bibitem{foerster1989critical}
+P~Foerster, SC~M{\"u}ller, and B~Hess.
+\newblock Critical size and curvature of wave formation in an excitable
+  chemical medium.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  86(18):6831--6834, 1989.
+
+\bibitem{winfree2001geometry}
+Arthur~T Winfree.
+\newblock {\em The geometry of biological time}, volume~12.
+\newblock Springer Science \& Business Media, 2001.
+
+\bibitem{andras2017recent}
+Kiss Andr{\'a}s.
+\newblock Recent advances in potentiometric scanning electrochemical
+  microscopy.
+\newblock 2017.
+
+\bibitem{muller1985structure}
+Stefan~C M{\"u}ller, Theo Plesser, and Benno Hess.
+\newblock The structure of the core of the spiral wave in the
+  belousov-zhabotinskii reaction.
+\newblock {\em Science}, 230(4726):661--663, 1985.
+
+\bibitem{nagy1990experimental}
+Zs~Nagy-Ungvarai, John~J Tyson, SC~Mueller, LT~Watson, and B~Hess.
+\newblock Experimental study of spiral waves in the cerium-catalyzed
+  belousov-zhabotinskii reaction.
+\newblock {\em Journal of physical chemistry}, 94(24):8677--8682, 1990.
+
+\bibitem{elsamadisi2010polished}
+Pansy Elsamadisi, Yixian Wang, Jeyavel Velmurugan, and Michael~V Mirkin.
+\newblock Polished nanopipets: new probes for high-resolution scanning
+  electrochemical microscopy.
+\newblock {\em Analytical chemistry}, 83(3):671--673, 2010.
+
+\bibitem{epstein2016reaction}
+Irving~R Epstein and Bing Xu.
+\newblock Reaction--diffusion processes at the nano-and microscales.
+\newblock {\em Nature nanotechnology}, 11(4):312, 2016.
+
+\bibitem{noszticzius1982use}
+Z~Noszticzius, E~Noszticzius, and ZA~Schelly.
+\newblock Use of ion-selective electrodes for monitoring oscillating reactions.
+  1. potential response of the silver halide membrane electrodes to hypohalous
+  acids.
+\newblock {\em Journal of the American Chemical Society}, 104(23):6194--6199,
+  1982.
+
+\bibitem{noszticzius1983use}
+Z~Noszticzius, E~Noszticzius, and ZA~Schelly.
+\newblock Use of ion-selective electrodes for monitoring oscillating reactions.
+  2. potential response of bromide-iodide-selective electrodes in slow
+  corrosive processes. disproportionation of bromous and iodous acids. a
+  lotka-volterra model for the halate driven oscillators.
+\newblock {\em The Journal of Physical Chemistry}, 87(3):510--524, 1983.
+
+\bibitem{orban2015ph}
+Miklós Orbán, Krisztina Kurin-Csörgei, and Irving~R Epstein.
+\newblock ph-regulated chemical oscillators.
+\newblock {\em Accounts of chemical research}, 48(3):593--601, 2015.
+
+\end{thebibliography}

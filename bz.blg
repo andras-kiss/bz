@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: bz.aux
+The style file: unsrt.bst
+Database file #1: bz.bib
+Repeated entry---line 178 of file bz.bib
+ : @article{noyes1972oscillations
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in andras2017recent
+You've used 20 entries,
+            1791 wiz_defined-function locations,
+            585 strings with 7789 characters,
+and the built_in function-call counts, 5083 in all, are:
+= -- 467
+> -- 227
+< -- 1
++ -- 83
+- -- 63
+* -- 431
+:= -- 814
+add.period$ -- 60
+call.type$ -- 20
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 180
+empty$ -- 482
+format.name$ -- 63
+if$ -- 1081
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 21
+newline$ -- 103
+num.names$ -- 20
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 64
+stack$ -- 0
+substring$ -- 494
+swap$ -- 20
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 55
+width$ -- 22
+write$ -- 220
+(There was 1 error message)
