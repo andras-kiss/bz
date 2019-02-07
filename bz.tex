@@ -30,7 +30,7 @@
 \ead{akiss@gamma.ttk.pte.hu}
 \author[szszilard]{Szilárd Szili}
 \address[akiss, gnagy, szszilard]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
-\address[akiss, gnagy]{János Szentágothai Research Centre, University of Pécs, 7624 Pécs, Ifjúság Útja 20, Hungary}
+\address[akiss, gnagy]{János Szentágothai Research Centre, University of Pécs, 7624 Pécs, Ifjúság útja 20, Hungary}
 \author[gnagy]{Géza Nagy}
 \ead{g-nagy@gamma.ttk.pte.hu}
 
@@ -101,7 +101,7 @@ The goal of this paper is to show that using SECM, spatially resolved images of 
 We report a way to perform SECM scanning in distributed BZ reactions without causing any noticeable change in the reaction.
 This was achieved by using a $d=$ 7 $\upmu$m carbon fiber microelectrode without any insulation.
 Only a small portion (less than 1 $\upmu$m) of the fiber was submersed into the reaction mixture.
-In this way, the submersed part of the electrode was smaller than the critical radius of the wave propagation \cite{foerster1989critical} in every direction, and it didn't influence the reaction.
+In this way, the submersed part of the electrode was smaller than the 20 $\upmu$m critical radius of the wave propagation \cite{foerster1989critical} in every direction, and it didn't influence the reaction.
 Redox potential was mapped in the spatio-temporal plane, and was overlayed on top of the conventional optical image to prove that the recorded potential changes correspond to the chemical waves made visible by ferroin redox indicator.
 
 \section{Materials and methods}
@@ -122,7 +122,7 @@ reagent    & c / mol $\cdot$ dm$^{-3}$ \\ \hline
 H$_2$SO$_4$      & 3.778 $\cdot$ 10$^{-1}$   \\
 NaBrO$_3$     & 3.338 $\cdot$ 10$^{-1}$   \\
 CH$_2$(COOH)$_2$ & 1.123 $\cdot$ 10$^{-1}$   \\
-NaBr       & 5.72 $\cdot$ 10$^{-2}$    \\
+NaBr       & 5.720 $\cdot$ 10$^{-2}$    \\
 ferroin    & 2.942 $\cdot$ 10$^{-3}$  
 \end{tabular}
 \label{table:initial}
@@ -184,6 +184,8 @@ The overlayed optical--electrochemical plot was created in Gnuplot 4.6.6.
 
 \section{Results and discussion}
 
+The experimental setup allowed several simplifications to be made. To minimize the convective effect of the indicator redox--electrode, only a very small, less than 1 $\upmu$m  portion of it was immersed in the reaction mixture. This in turn, allowed the use of an uninsulated electrode, because the sensitive area of the electrode was already limited a very small point. Without insulation, the electrode could be made even smaller. Another advantage of the setup is the perfectly smooth, flat and levelled surface of the liquid phase. Only the X--Y plane of the SECM had to be levelled. The thickness of the reaction mixture had to be minimized to be quasy--2D to allow the simultaneous recording of the optical space--time plot, which didn't make the SECM measurement any more difficult, since the tip was already being rastered on the surface of the reaction mixture. 
+
 Fig. \ref{fig:spatiotemporal}A shows the electrochemical spatiotemporal image overlayed on top of the optical one.
 The optical space--time plot is presented in grayscale to allow better visibility.
 Lighter shade of gray means a higher ferriin/ferroin  ratio.
@@ -193,7 +195,8 @@ The measured redox potential represents the [Fe$^{2+}$]/[Fe$^{3+}$]  concentrati
 	E = E^\theta - \frac{RT}{F}\ln \frac{[Fe^{2+}]}{[Fe^{3+}]}
 \end{equation}
 
-A very good correlation can be observed between the changes of the potential of the carbon fiber microelectrode and the propagation of the oxidizing chemical waves that is visible in the optical image.
+The measured potential is certainly a mixed potential depending on several other species in the reaction, with the two largest contributors being the iron catalyst and bromate \cite{field1972oscillations}.
+Despite this, a very good correlation can be observed between the changes of the potential of the carbon fiber microelectrode and the propagation of the oxidizing chemical waves that is visible in the optical image.
 Fig. \ref{fig:grabs2}. shows the encounter of the moving microelectrode with wave \#3.
 There is no evidence of any convective disturbance caused by the movement of the microelectrode.
 This is important, because the BZ reaction is very sensitive to external influences, and it wouldn't be possible to properly observe it with a technique that significantly influences the reaction.
@@ -206,6 +209,7 @@ However, using the SECM, one microelectrode is sufficient because the tip can be
 For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
 The positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
 Based on these coordinates, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
+This value is comparable to the travelling speed of chemical waves reported by R. J. Field and R. M. Noyes \cite{field1974oscillationsV}, under slightly lower H$_2$SO$_4$ concentarions but otherwise similar initial reactant concentrations (4 -- 9 mm/min or 66.67 -- 150 $\upmu$m/s).
 Table \ref{table:stats}. contains several parameters of the waves that were encountered multiple times by the microelectrode. 
 
 \begin{table}
