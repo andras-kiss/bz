@@ -1,4 +1,4 @@
-\documentclass[3p, twocolumn]{elsarticle}
+\documentclass[3p]{elsarticle}
 \usepackage{ae,aecompl}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -59,17 +59,20 @@ The first potentiometric scanning electrochemical microscopic image about the di
 \end{frontmatter}
 
 \section{Introduction}
-The Belousov-Zhabotinsky (BZ) oscillating reaction and other reaction--diffusion systems are good models for biological pattern formation \cite{kondo2010reaction}, but they are interesting phenomena in their own right.
+The Belousov-Zhabotinsky (BZ) reaction and other oscillating reaction--diffusion systems are good models for biological pattern formation \cite{kondo2010reaction}, but they are interesting phenomena in their own right.
 During the BZ--reaction, the concentration of several species undergoes oscillation.
 Among these there are a few that can be measured potentiometrically with high selectivity.
 For instance, bromide--ion concentration can be measured by an appropriate ion--selective electrode, while the potential of a redox--electrode depends mostly on the ratio of the concentration of the oxidized and reduced catalyst.
 Most of the early development in understanding the oscillating nature of the reaction was based on electrochemical experiments.
 The \emph{FKN} (Field--Kőrös--Noyes) base mechanism for temporal oscillation was established using concentration--time information obtained by monitoring the [Ce(IV)]/[Ce(III)] ratio with a tungsten electrode, and the bromide--ion concentration with an ion--selective electrode \cite{noyes1972oscillations, field1972oscillations, field1974oscillationsIV}.
+
 However, the application of the model to explain spatial oscillations required spatially resolved images, which the electrochemical methods could not provide.
 By using images obtained with a simple photographic method, the model was applied to account for spatial oscillations as well \cite{field1974oscillationsV}.
+
 Not suprisingly, even up to this day, to obtain spatial information about the BZ--reaction and other chemical oscillators, 2D spectrophotometry seems like an obvious choice, although recently 3D tomography was used to map Turing--structures in a water--in--oil microemulsion BZ--reaction \cite{bansagi2011tomography}. In some cases however, the application of optical measuring techniques can be quite problematic for multiple reasons.
 For example, the absorption spectra of several of the measured species might be overlapping, or their specific absorbance might be too low, or hard to determine experimentally.
 CO$_2$ bubbles evolved in the BZ--reaction could affect the photometric measurement.
+
 Electroanalytical methods do not suffer from these problems.
 To map certain species and benefit from the high selectivity of the electroanalytical methods at the same time, miniaturized versions of the above mentioned electrodes were used to record temporal changes in potential at a discrete place \cite{nagy1990electrochemical}.
 Then, knowing the traveling speed of the chemical waves, the potential changes were directly converted to spatial profiles \cite{nagy1991control}.
@@ -128,7 +131,6 @@ ferroin    & 2.942 $\cdot$ 10$^{-3}$
 \label{table:initial}
 \end{table}
 
-
 \paragraph{Scanning Electrochemical Microscopy} A double junction Ag/AgCl/3 M KCl/0.1 M CH$_3$COOLi reference electrode was placed inside the reaction mixture, close to the edge of the Petri dish.
 Then, a $d_o=7$ $\upmu$m carbon microelectrode was submersed less than 1 $\upmu$m into the reaction mixture (Fig. \ref{fig:setup}.).
 To accomplish it, the tip of the microelectrode was brought to contact with the reaction mixture by approaching the surface in 100 $\upmu$m increments using the Z axis of the SECM.
@@ -144,27 +146,23 @@ Potential was measured using a high input--impedance potential difference meter,
 The SECM was a homebuilt instrument described previously \cite{andras2017recent}.
 The X-Y plane of the SECM instrument was adjusted using a precision spirit leveler.
 
-\paragraph{Carbon fiber microelectrode} The carbon fiber microelectrode was prepared using a $d=7\, \upmu$m carbon fiber that was isolated from a Toray Torayca T700S 24K tow (19002 50th Avenue East, Tacoma, WA 98446).
-A small portion of a single $\sim$ 1 cm long fiber was soldered into the hole of a round female pin header that was purchased from a local electronics store. 
-The other end of the header was soldered to a $d=$ 1 mm isolated copper wire to provide electrical connectivity and mechanical strength. 
-
-\begin{figure}
+\begin{figure}[!p]
 \centering
 % trim = left bottom right top
 \begin{flushleft}
-\textbf{A}
+\hspace{4cm} \textbf{A}
 \end{flushleft}
 
 \includegraphics[width=0.45\textwidth]{setup.eps}
 
 \begin{flushleft}
-\textbf{B}
+\hspace{4cm} \textbf{B}
 \end{flushleft}
 
 \includegraphics[width=0.45\textwidth]{setup_photo.jpg}
 
 \begin{flushleft}
-\textbf{C}
+\hspace{4cm} \textbf{C}
 \end{flushleft}
 
 \includegraphics[width=0.45\textwidth]{0.png}
@@ -174,6 +172,12 @@ Sketch (A) and photograph (B) of the experimental setup. (C) The image seen by t
 }
 \label{fig:setup}
 \end{figure}
+
+
+
+\paragraph{Carbon fiber microelectrode} The carbon fiber microelectrode was prepared using a $d=7\, \upmu$m carbon fiber that was isolated from a Toray Torayca T700S 24K tow (19002 50th Avenue East, Tacoma, WA 98446).
+A small portion of a single $\sim$ 1 cm long fiber was soldered into the hole of a round female pin header that was purchased from a local electronics store. 
+The other end of the header was soldered to a $d=$ 1 mm isolated copper wire to provide electrical connectivity and mechanical strength. 
 
 \paragraph{Optical observation}
 The reaction was filmed using an 8 MP Sony Exmor IMX179 1/3.2-inch CMOS sensor (as part of an LG Nexus 5 cell phone), positioned 10 cm from the scanline at a 45 degree angle, with the frame parallel to the scanline.
@@ -202,16 +206,6 @@ There is no evidence of any convective disturbance caused by the movement of the
 This is important, because the BZ reaction is very sensitive to external influences, and it wouldn't be possible to properly observe it with a technique that significantly influences the reaction.
 The 7 $\upmu$m microelectrode diameter is small enough that the convective effect is alleviated by diffusion to such an extent, that the reaction behaves as if the microelectrode wasn't there.
 
-Parameters that can be determined from the optical data -- such as the travel speed of chemical waves -- can also be calculated from the SECM spatiotemporal measurements.
-In case of stationary microelectrode, two of them would be necessary at a known distance from each other to calculate the travel speed.
-It could be calculated as the ratio of the distance between the electrodes, and the time it takes for the wave to get from the first microelectrode to the second.
-However, using the SECM, one microelectrode is sufficient because the tip can be repositioned to allow additional measurements of the same wave.
-For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
-The positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
-Based on these coordinates, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
-This value is comparable to the travelling speed of chemical waves reported by R. J. Field and R. M. Noyes \cite{field1974oscillationsV}, under slightly lower H$_2$SO$_4$ concentarions but otherwise similar initial reactant concentrations (4 -- 9 mm/min or 66.67 -- 150 $\upmu$m/s).
-Table \ref{table:stats}. contains several parameters of the waves that were encountered multiple times by the microelectrode. 
-
 \begin{table}
 \caption{Chemical wave encounters by the microelectrode during the scanning process.}
 \small
@@ -233,12 +227,24 @@ Wave \# & t, s & E, mV & x, mm & v, $\upmu$m/s \\
 \end{tabular}
 \end{table}
 
+
+
+Parameters that can be determined from the optical data -- such as the travel speed of chemical waves -- can also be calculated from the SECM spatiotemporal measurements.
+In case of stationary microelectrode, two of them would be necessary at a known distance from each other to calculate the travel speed.
+It could be calculated as the ratio of the distance between the electrodes, and the time it takes for the wave to get from the first microelectrode to the second.
+However, using the SECM, one microelectrode is sufficient because the tip can be repositioned to allow additional measurements of the same wave.
+For instance, wave \#3 was encountered by the carbon microelectrode three times, at t$_1$=47 s, t$_2$=67 s and t$_3$=80 s.
+The positions of these encounteres are also known: x$_1$=1400 $\upmu$m, x$_2$=6400 $\upmu$m and x$_3$=8600 $\upmu$m.
+Based on these coordinates, the average travel speed of wave \#3 during its path between the two outermost positions is 218.18 $\upmu$m/s.
+This value is comparable to the travelling speed of chemical waves reported by R. J. Field and R. M. Noyes \cite{field1974oscillationsV}, under slightly lower H$_2$SO$_4$ concentarions but otherwise similar initial reactant concentrations (4 -- 9 mm/min or 66.67 -- 150 $\upmu$m/s).
+Table \ref{table:stats}. contains several parameters of the waves that were encountered multiple times by the microelectrode. 
+
 Using only one electrode has additional advantages over using an array, for instance one doesn't have to worry about the differences between the electrodes.
 Furthermore, when using an SECM in such study, the microelectrode can be positioned to any coordinate within the mechanical boundaries of the instrument.
 
 One drawback is that the electrochemical information presented in Fig. \ref{fig:spatiotemporal}. is rather sparse compared to the optical image beneath.
 An obvious improvement would be increasing the scanning speed, to make the scanlines more dense.
-This is currently a limitation of the SECM instrument in our laboratory, and is subject to a subsequent paper.
+%This is currently a limitation of the SECM instrument in our laboratory, and is subject to a subsequent paper.
 
 The travel speeds calculated are certainly not accurate, since in the measurement both the temporal ($\delta$t=0.5 s) and the spatial ($\delta$x=200 $\upmu$m) data is discrete, hence the equal values for waves \#3 -- \#7 and waves \#6 -- \#9.
 
@@ -248,10 +254,15 @@ Knowing that the angle at which the reaction has been filmed is 45 degrees, afte
 \def\s{0.5}
 \begin{figure}
 %% trim = top left bottom right
-\centering
-\flushleft{\textbf{\large{A}}}
+%\centering
+%\flushleft{\textbf{\large{A}}}
+\hspace{4cm} \textbf{\large{A}}
 \includegraphics[trim = 15mm 60mm 0mm 30mm, clip, width=\s\textwidth, angle=-90]{spacetime.eps}
-\flushleft{\textbf{\large{B}}}
+\vspace{1cm}
+
+\hspace{4cm} \textbf{\large{B}}
+
+\centering
 \begin{tikzpicture}
   \begin{axis}[width=7cm, height=5cm, xlabel={x / cm},ylabel={time / s},zlabel={E / V}, zmin=0.9]
     \addplot3[very thick, color=red] table {17101308_st_lines_back.txt};
@@ -295,25 +306,29 @@ Another advantage of the potentiometric method is that it can reach a higher res
 Nanometer sized potentiometric microsensors are now routinely prepared \cite{elsamadisi2010polished}.
 Efforts toward further miniaturization would make the potentiometric study of the BZ and other reaction-diffusion processes at the nano- and microscales more viable \cite{epstein2016reaction}.
 
-\section{Conclusions}
-Potentiometry has been used to study the BZ reaction almost since its discovery.
-Compared to the optical methods, it allowed farther reaching conclusions to be made by several research groups.
-There is however one area where electrochemical investigations certainly lacked; they couldn't provide spatial information, which 2D photometry or tomography could easily do.
-In this paper, we made an attempt to combine the advantages of the two techniques.
-In its current form the technique has several limitations, for instance, the relatively low density of the electrochemical data.
-%Further development can be expected.
-
-Using potentiometric SECM with a sufficiently small microelectrode, the redox potential can be spatially resolved in a quasy-2D BZ reaction, without influencing the reaction.
 By substituting the indicator tip or combining multiple ones, other parameters can be measured, possibly simultaneously.
 With an appropriately small ion-selective microelectrode, it would also be possible to map the bromide-ion activity in the BZ reaction.
 There are several extensive works on the use of such ion-selective electrodes in the study of the stirred BZ and other oscillating reactions \cite{noszticzius1982use, noszticzius1983use}.
 A pH-sensitive antimony microelectrode with a less than 7 $\upmu$m diameter can be easily prepared, and it also might be possible to map pH in pH-regulated oscillators \cite{orban2015ph} with the SECM.
 %This could provide an opportunity to further advance our understanding of the BZ and other oscillating reactions.
 
+
+\section{Conclusions}
+Potentiometry has been used to study the BZ reaction almost since its discovery.
+Compared to the optical methods, it allowed farther reaching conclusions to be made by several research groups.
+
+There is however one area where electrochemical investigations certainly lacked; they couldn't provide spatial information, which 2D photometry or tomography could easily do.
+In this work the redox potential was spatially resolved in a quasy-2D BZ reaction, without influencing the reaction, using potentiometric SECM with a sufficiently small microelectrode.
+We have shown that the advantages of the optical and electrochemical methods can be combined.
+In its current form the technique has several limitations, for instance, the relatively low density of the electrochemical data.
+
+Scanning on the surface of a liquid phase might be adapted to other problems, where the liquid layer is very shallow or it's important not to cause convection in the studied system.
+
 \section*{Acknowledgements}
 The work was financially supported by the National Research, Development and Innovation Office (Budapest, Hungary) under grant K125244.
 %András Kiss is thankful for the inspiring discussions with Gyula Hoffmann about pattern formation.
 
+\section*{References}
 \bibliography{bz}{}
 \bibliographystyle{unsrt}
 
