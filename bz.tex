@@ -62,7 +62,7 @@ The first potentiometric scanning electrochemical microscopic image about the di
 The Belousov-Zhabotinsky (BZ) reaction and other oscillating reaction--diffusion systems are good models for biological pattern formation \cite{kondo2010reaction}, but they are interesting phenomena in their own right.
 During the BZ--reaction, the concentration of several species undergoes oscillation.
 Among these there are a few that can be measured potentiometrically with high selectivity.
-For instance, bromide--ion concentration can be measured by an appropriate ion--selective electrode, while the potential of a redox--electrode depends mostly on the ratio of the concentration of the oxidized and reduced catalyst.
+For instance, bromide--ion concentration can be measured by an appropriate ion--selective electrode, while the potential of a redox--electrode depends mostly on the ratio of the concentration of the oxidized and reduced form of the catalyst.
 Most of the early development in understanding the oscillating nature of the reaction was based on electrochemical experiments.
 The \emph{FKN} (Field--Kőrös--Noyes) base mechanism for temporal oscillation was established using concentration--time information obtained by monitoring the [Ce(IV)]/[Ce(III)] ratio with a tungsten electrode, and the bromide--ion concentration with an ion--selective electrode \cite{noyes1972oscillations, field1972oscillations, field1974oscillationsIV}.
 
@@ -96,22 +96,22 @@ Furthermore it cannot be used to map complex oscillatory or stationary patterns 
 %Then, they used a transfer function to interpret the temporal patterns as spatial ones.
 It would be desirable to record real spatial patterns in a distributed system using similar potentiometric sensors.
 Scanning electrochemical microscopy (SECM) seems like an ideal technique for this purpose. 
-It must be mentioned, that SECM has already been used to investigate the BZ--reaction, although not to obtain spatially resolved chemical data, but to study the communication of the chemical information in the BZ--reaction between two immiscible electrolyte solutions \cite{tomasi2014chemical} and the behaviour of the BZ--reaction in confined conditions \cite{stockmann2015scanning}. 
+It must be mentioned, that SECM has already been used to investigate the BZ--reaction, although not to obtain spatially resolved chemical data, but to study the communication of the chemical information in the BZ--reaction between two immiscible electrolyte solutions \cite{tomasi2014chemical} and the behaviour of the BZ--reaction under confined conditions \cite{stockmann2015scanning}. 
 %However, even the microelectrodes that are used in \cite{hess2, hess3} are not small enough to avoid interfering with the measured system.
 %Scanning with those electrodes would certainly cause enough convection to alter the propagation of the waves in the patterns.
 
 The goal of this paper is to show that using SECM, spatially resolved images of the redox potential in the BZ reaction can be obtained.
-We report a way to perform SECM scanning in distributed BZ reactions without causing any noticeable change in the reaction.
+We report a way to perform SECM scanning in distributed BZ reactions without any noticeable influence to the reaction.
 This was achieved by using a $d=$ 7 $\upmu$m carbon fiber microelectrode without any insulation.
 Only a small portion (less than 1 $\upmu$m) of the fiber was submersed into the reaction mixture.
 In this way, the submersed part of the electrode was smaller than the 20 $\upmu$m critical radius of the wave propagation \cite{foerster1989critical} in every direction, and it didn't influence the reaction.
-Redox potential was mapped in the spatio-temporal plane, and was overlayed on top of the conventional optical image to prove that the recorded potential changes correspond to the chemical waves made visible by ferroin redox indicator.
+Redox potential was mapped in the spatio-temporal plane, and was overlayed on top of the conventional optical image to prove that the recorded potential changes corresponded to the chemical waves made visible by ferroin redox indicator.
 
 \section{Materials and methods}
 \paragraph{The Belousov-Zhabotinsky reaction} To start the reaction, the method that is described in \cite{winfree2001geometry} by A. T. Winfree was used.
 Solution ,,A'' was prepared by adding 2 ml of concentrated sulfuric acid and 5 g sodium bromate to 67 ml water.
 Solution ,,B'' was 1 g malonic acid dissolved in 10 ml of water, solution ,,C'' was 1 g sodium bromide dissolved in 10 ml of water.
-2 ml of ,,A'', 0.333 ml of ,,B'' and 0.166 ml ,,C'' was added to a small Petri dish ($d=5 \,$cm).
+2 ml of ,,A'', 0.333 ml of ,,B'' and 0.166 ml ,,C'' was added to a small Petri dish made of polystyrene (c$d=5 \,$cm).
 After the orange color of bromine vanished, 0.333 ml of 25 mM phenantroline ferrous sulfate was added, and the reaction mixture was stirred with a glass rod for a few seconds.
 The initial concentrations of the reagents can be seen in Table \ref{table:initial}.
 The thickness of the reaction mixture was about 0.9 mm.
@@ -181,14 +181,14 @@ The other end of the header was soldered to a $d=$ 1 mm isolated copper wire to 
 
 \paragraph{Optical observation}
 The reaction was filmed using an 8 MP Sony Exmor IMX179 1/3.2-inch CMOS sensor (as part of an LG Nexus 5 cell phone), positioned 10 cm from the scanline at a 45 degree angle, with the frame parallel to the scanline.
-The space-time plot was prepared using the Blender 2.78 video editing software by grabbing linear, 1 pixel high images from every 30th frame of the video (1 s interval).
+The space-time plot was prepared using the Blender 2.78 video editing software \cite{blender1} by grabbing linear, 1 pixel high images from every 30th frame of the video (1 s interval).
 The position and orientation of these 1 pixel high frames matched that of the scanline covered by the microelectrode.
-The image sequence was assambled by stacking the grabs vertically using Imagemagick 1.3.20.
-The overlayed optical--electrochemical plot was created in Gnuplot 4.6.6.
+The image sequence was assembled by stacking the grabs vertically using Imagemagick 1.3.20 \cite{imagemagick}.
+The overlayed optical--electrochemical plot was created in Gnuplot 4.6.6 \cite{gnuplot}.
 
 \section{Results and discussion}
 
-The experimental setup allowed several simplifications to be made. To minimize the convective effect of the indicator redox--electrode, only a very small, less than 1 $\upmu$m  portion of it was immersed in the reaction mixture. This in turn, allowed the use of an uninsulated electrode, because the sensitive area of the electrode was already limited a very small point. Without insulation, the electrode could be made even smaller. Another advantage of the setup is the perfectly smooth, flat and levelled surface of the liquid phase. Only the X--Y plane of the SECM had to be levelled. The thickness of the reaction mixture had to be minimized to be quasy--2D to allow the simultaneous recording of the optical space--time plot, which didn't make the SECM measurement any more difficult, since the tip was already being rastered on the surface of the reaction mixture. 
+The experimental setup allowed several simplifications to be made. To minimize the convective effect of the indicator redox--electrode, only a very small, less than 1 $\upmu$m  portion of it was immersed in the reaction mixture. This in turn, allowed the use of an uninsulated electrode, because the sensitive area of the electrode was already limited to a very small point. Without insulation, the electrode could be made even smaller. Another advantage of the setup is the perfectly smooth, flat and levelled surface of the liquid phase. Only the X--Y plane of the SECM had to be levelled. The thickness of the reaction mixture had to be minimized to be quasy--2D to allow the simultaneous recording of the optical space--time plot, which didn't make the SECM measurement any more difficult, since the tip was already being rastered on the surface of the reaction mixture. 
 
 Fig. \ref{fig:spatiotemporal}A shows the electrochemical spatiotemporal image overlayed on top of the optical one.
 The optical space--time plot is presented in grayscale to allow better visibility.

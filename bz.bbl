@@ -84,6 +84,21 @@ Kiss Andr{\'a}s.
   microscopy.
 \newblock 2017.
 
+\bibitem{blender1}
+{Blender Online Community}.
+\newblock {\em Blender - a 3D modelling and rendering package}.
+\newblock Blender Foundation, Blender Institute, Amsterdam, %s.
+
+\bibitem{imagemagick}
+ImageMagick~Stusio LLC.
+\newblock Imagemagick, http://www.imagemagick.org/, 2013.
+\newblock Accessed 2013-05-07.
+
+\bibitem{gnuplot}
+Thomas Williams, Colin Kelley, and {many others}.
+\newblock Gnuplot 4.6.6: an interactive plotting program.
+\newblock \url{http://gnuplot.sourceforge.net/}, April 2019.
+
 \bibitem{muller1985structure}
 Stefan~C M{\"u}ller, Theo Plesser, and Benno Hess.
 \newblock The structure of the core of the spiral wave in the
