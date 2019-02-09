@@ -15,8 +15,8 @@ Richard~M Noyes, Richard Field, and Endre Kőrös.
 
 \bibitem{field1972oscillations}
 Richard~J Field, Endre Kőrös, and Richard~M Noyes.
-\newblock Oscillations in chemical systems. {II}. thorough analysis of temporal
-  oscillation in the bromate-cerium-malonic acid system.
+\newblock Oscillations in chemical systems. {II}. {T}horough analysis of
+  temporal oscillation in the bromate-cerium-malonic acid system.
 \newblock {\em Journal of the American Chemical Society}, 94(25):8649--8664,
   1972.
 
@@ -28,8 +28,8 @@ Richard~J Field and Richard~M Noyes.
 
 \bibitem{field1974oscillationsV}
 Richard~J Field and Richard~M Noyes.
-\newblock Oscillations in chemical systems. v. quantitative explanation of band
-  migration in the belousov-zhabotinskii reaction.
+\newblock Oscillations in chemical systems. {V. Q}uantitative explanation of
+  band migration in the {B}elousov-{Z}habotinskii reaction.
 \newblock {\em Journal of the American Chemical Society}, 96(7):2001--2006,
   1974.
 
@@ -42,7 +42,7 @@ Tam{\'a}s B{\'a}ns{\'a}gi, Vladimir~K Vanag, and Irving~R Epstein.
 \bibitem{nagy1990electrochemical}
 Zs~Nagy-Ungvarai, H~Baumg{\"a}rtl, and B~Hess.
 \newblock Electrochemical detection of pattern formation in the
-  belousov-zhabotinskii reaction.
+  {B}elousov-{Z}habotinskii reaction.
 \newblock {\em Chemical Physics Letters}, 168(6):539--542, 1990.
 
 \bibitem{nagy1991control}
@@ -61,7 +61,7 @@ Rapha{\"e}l Tomasi, Jean-Marc No{\"e}l, Aymen Zenati, Sandra Ristori, Federico
 \bibitem{stockmann2015scanning}
 T~Jane Stockmann, Jean-Marc No{\"e}l, Sandra Ristori, Catherine Combellas, Ali
   Abou-Hassan, Federico Rossi, and Fr{\'e}d{\'e}ric Kanoufi.
-\newblock Scanning electrochemical microscopy of belousov--zhabotinsky
+\newblock Scanning electrochemical microscopy of {B}elousov--{Z}habotinsky
   reaction: How confined oscillations reveal short lived radicals and
   auto-catalytic species.
 \newblock {\em Analytical chemistry}, 87(19):9621--9630, 2015.
@@ -82,7 +82,8 @@ Arthur~T Winfree.
 Kiss Andr{\'a}s.
 \newblock Recent advances in potentiometric scanning electrochemical
   microscopy.
-\newblock 2017.
+\newblock {\em Doctoral dissertation, {U}niversity of {P}écs, 2017.
+  https://pea.lib.pte.hu}.
 
 \bibitem{blender1}
 {Blender Online Community}.
@@ -102,13 +103,13 @@ Thomas Williams, Colin Kelley, and {many others}.
 \bibitem{muller1985structure}
 Stefan~C M{\"u}ller, Theo Plesser, and Benno Hess.
 \newblock The structure of the core of the spiral wave in the
-  belousov-zhabotinskii reaction.
+  {B}elousov-{Z}habotinskii reaction.
 \newblock {\em Science}, 230(4726):661--663, 1985.
 
 \bibitem{nagy1990experimental}
 Zs~Nagy-Ungvarai, John~J Tyson, SC~Mueller, LT~Watson, and B~Hess.
 \newblock Experimental study of spiral waves in the cerium-catalyzed
-  belousov-zhabotinskii reaction.
+  {B}elousov-{Z}habotinskii reaction.
 \newblock {\em Journal of physical chemistry}, 94(24):8677--8682, 1990.
 
 \bibitem{elsamadisi2010polished}

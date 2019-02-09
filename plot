@@ -57,6 +57,6 @@ set cbrange [0.85:1]
 set xrange [0:1]
 set cblabel offset 1,0
 set ylabel offset -1,0
-set xlabel offset 0,-0.5 
+set xlabel offset 0,0 
 splot "17101308_st.txt" using ($1/10000):2:3 with points palette pointsize 1.2 pointtype 5 notitle
 unset multiplot
